@@ -38,35 +38,3 @@ async def get_current_user(
         )
 
     return user
-
-def get_current_web_user(
-    access_token: str | None = Cookie(default=None),
-    db: Session = Depends(get_db),
-) -> User:
-    if not access_token:
-        raise HTTPException(
-            status_code=status.HTTP_303_SEE_OTHER,
-            headers={"Location": "/web/login"},
-        )
-
-    payload = verificar_token(access_token)
-
-    if not payload or not payload.get("sub"):
-        raise HTTPException(
-            status_code=status.HTTP_303_SEE_OTHER,
-            headers={"Location": "/web/login"},
-        )
-
-    user = (
-        db.query(User)
-        .filter(User.username == payload["sub"])
-        .first()
-    )
-
-    if not user:
-        raise HTTPException(
-            status_code=status.HTTP_303_SEE_OTHER,
-            headers={"Location": "/web/login"},
-        )
-
-    return user
