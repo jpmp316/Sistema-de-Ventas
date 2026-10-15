@@ -4,7 +4,6 @@ from sqlalchemy.orm import Session
 from core.database import get_db
 from models.user import User
 from auth.auth_handler import verificar_token
-from fastapi import Cookie, Depends, HTTPException, status
 security = HTTPBearer()
 
 async def get_current_user(
