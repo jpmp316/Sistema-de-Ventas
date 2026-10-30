@@ -13,28 +13,27 @@ DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")
 DB_NAME = os.getenv("DB_NAME")
 
-required_settings = {
-    "DB_USER": DB_USER,
-    "DB_PASS": DB_PASS,
-    "DB_HOST": DB_HOST,
-    "DB_PORT": DB_PORT,
-    "DB_NAME": DB_NAME,
-}
-
-missing_settings = [
-    name for name, value in required_settings.items()
-    if not value
-]
-
-if missing_settings:
-    raise RuntimeError(
-        "Faltan variables de entorno: "
-        + ", ".join(missing_settings)
-    )
-
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not DATABASE_URL:
+    required_settings = {
+        "DB_USER": DB_USER,
+        "DB_PASS": DB_PASS,
+        "DB_HOST": DB_HOST,
+        "DB_PORT": DB_PORT,
+        "DB_NAME": DB_NAME,
+    }
+    missing_settings = [
+        name for name, value in required_settings.items()
+        if not value
+    ]
+
+    if missing_settings:
+        raise RuntimeError(
+            "Faltan variables de entorno: "
+            + ", ".join(missing_settings)
+        )
+
     DATABASE_URL = URL.create(
         drivername="postgresql+psycopg",
         username=DB_USER,

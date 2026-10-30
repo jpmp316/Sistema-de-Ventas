@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import AliasPath, BaseModel, ConfigDict, Field
 
 
 class UserCreate(BaseModel):
@@ -18,6 +18,7 @@ class UserOut(BaseModel):
 
     id: int
     username: str
+    role: str = Field(validation_alias=AliasPath("role", "name"))
     created_at: datetime
     updated_at: datetime | None = None
 
@@ -26,6 +27,8 @@ class Token(BaseModel):
     access_token: str
     token_type: str
     expires_in: int
+    username: str
+    role: str
 
 
 class PaginatedUsers(BaseModel):

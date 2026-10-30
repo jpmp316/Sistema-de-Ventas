@@ -1,19 +1,24 @@
-def test_crear_usuario(client, user_data):
-    response = client.post("/users/", json=user_data)
+from auth.auth_handler import ACCESS_TOKEN_EXPIRE_MINUTES
+
+
+def test_crear_usuario(authenticated_client, user_data):
+    seller_data = {**user_data, "username": f"{user_data['username']}_seller"}
+    response = authenticated_client.post("/users/", json=seller_data)
 
     assert response.status_code == 201
 
     data = response.json()
 
-    assert data["username"] == user_data["username"]
+    assert data["username"] == seller_data["username"]
+    assert data["role"] == "vendedor"
     assert "id" in data
     assert "hashed_password" not in data
 
-    client.delete(f"/users/{data['id']}")
+    authenticated_client.delete(f"/users/{data['id']}")
 
 
 def test_login_usuario(client, user_data):
-    create_response = client.post("/users/", json=user_data)
+    create_response = client.post("/auth/bootstrap-admin", json=user_data)
 
     assert create_response.status_code == 201
 
@@ -32,14 +37,14 @@ def test_login_usuario(client, user_data):
     token_data = login_response.json()
 
     assert token_data["token_type"] == "bearer"
-    assert token_data["expires_in"] == 30 * 60
+    assert token_data["expires_in"] == ACCESS_TOKEN_EXPIRE_MINUTES * 60
     assert token_data["access_token"]
 
     client.delete(f"/users/{user_id}")
 
 
 def test_login_con_password_incorrecta(client, user_data):
-    create_response = client.post("/users/", json=user_data)
+    create_response = client.post("/auth/bootstrap-admin", json=user_data)
 
     assert create_response.status_code == 201
 

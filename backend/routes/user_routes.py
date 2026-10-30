@@ -1,12 +1,13 @@
 from fastapi import APIRouter, Depends, HTTPException, Response, status
-from fastapi.security import OAuth2PasswordRequestForm
+from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer, OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 
-from auth.auth_handler import crear_token
+from auth.auth_handler import ACCESS_TOKEN_EXPIRE_MINUTES, crear_token, verificar_token
 from auth.auth_service import hashear_password, verificar_password
 from auth.dependencies import get_current_user
 from core.database import get_db
 from models.user import User
+from models.role import Role
 from schemas.user_schemas import (
     PaginatedUsers,
     Token,
@@ -16,6 +17,18 @@ from schemas.user_schemas import (
 )
 
 router = APIRouter()
+optional_bearer = HTTPBearer(auto_error=False)
+
+
+def get_optional_current_user(
+    credentials: HTTPAuthorizationCredentials | None = Depends(optional_bearer),
+    db: Session = Depends(get_db),
+) -> User | None:
+    if credentials is None:
+        return None
+    payload = verificar_token(credentials.credentials)
+    username = payload.get("sub") if payload else None
+    return db.query(User).filter(User.username == username).first() if username else None
 
 
 def get_user_or_404(db: Session, user_id: int) -> User:
@@ -53,7 +66,9 @@ def login(
     return Token(
         access_token=token,
         token_type="bearer",
-        expires_in=30 * 60,
+        expires_in=ACCESS_TOKEN_EXPIRE_MINUTES * 60,
+        username=user.username,
+        role=user.role.name,
     )
 
 
@@ -61,6 +76,7 @@ def login(
 def create_user(
     user_in: UserCreate,
     db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
 ):
     username = user_in.username.strip().lower()
 
@@ -70,15 +86,39 @@ def create_user(
             detail="El nombre de usuario ya existe",
         )
 
+    if current_user.role.name != "admin":
+        raise HTTPException(status_code=403, detail="Solo un administrador puede crear usuarios")
+
     user = User(
         username=username,
         hashed_password=hashear_password(user_in.password),
+        role=db.query(Role).filter(Role.name == "vendedor").one(),
     )
 
     db.add(user)
     db.commit()
     db.refresh(user)
 
+    return user
+
+
+@router.post("/auth/bootstrap-admin", response_model=UserOut, status_code=status.HTTP_201_CREATED)
+def bootstrap_admin(
+    user_in: UserCreate,
+    db: Session = Depends(get_db),
+    current_user: User | None = Depends(get_optional_current_user),
+):
+    has_users = db.query(User).count() != 0
+    if has_users and (current_user is None or current_user.role.name != "admin"):
+        raise HTTPException(status_code=403, detail="Se requiere una sesión de administrador para crear otro administrador")
+    username = user_in.username.strip().lower()
+    if db.query(User).filter(User.username == username).first():
+        raise HTTPException(status_code=409, detail="El nombre de usuario ya existe")
+    admin_role = db.query(Role).filter(Role.name == "admin").one()
+    user = User(username=username, hashed_password=hashear_password(user_in.password), role=admin_role)
+    db.add(user)
+    db.commit()
+    db.refresh(user)
     return user
 
 

@@ -18,6 +18,7 @@ const menuItems = [
   { label: "Clientes", icon: Users },
   { label: "Estadísticas", icon: ChartNoAxesCombined },
   { label: "Configuración", icon: Settings },
+  { label: "Usuarios", icon: Users },
 ];
 
 function Sidebar({ vistaActual, onCambiarVista }) {

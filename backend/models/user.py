@@ -1,5 +1,5 @@
-from sqlalchemy import Column, DateTime, Integer, String
-from sqlalchemy.orm import validates
+from sqlalchemy import Column, DateTime, ForeignKey, Integer, String
+from sqlalchemy.orm import relationship, validates
 from sqlalchemy.sql import func
 
 from core.database import Base
@@ -11,6 +11,8 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True, comment="Id único del usuario")
     username = Column(String(50), unique=True, index=True, nullable=False, comment="Nombre de usuario único")
     hashed_password = Column(String(255), nullable=False, comment="Contraseña hasheada del usuario")
+    role_id = Column(Integer, ForeignKey("roles.id", ondelete="RESTRICT"), nullable=False)
+    role = relationship("Role", back_populates="users")
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False, comment="Fecha y hora de creación del usuario")
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now(), comment="Fecha y hora de la última actualización del usuario")
 
