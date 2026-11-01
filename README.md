@@ -199,14 +199,12 @@ Genera SECRET_KEY en tu terminal y pega el resultado en Render:
 python -c "import secrets; print(secrets.token_urlsafe(32))"
 ```
 
-Las migraciones no se ejecutan durante la construcción de la imagen. En un
-servicio de pago puedes definir Pre-Deploy Command: `alembic upgrade head`.
-Para una instancia gratuita única puedes usar este Docker Command para ejecutar
-las migraciones pendientes al arrancar y detener el despliegue si fallan:
-
-```sh
-sh -c 'alembic upgrade head && exec uvicorn main:app --host 0.0.0.0 --port ${PORT:-10000}'
-```
+Las migraciones no se ejecutan durante la construcción de la imagen. El CMD del
+Dockerfile ejecuta `alembic upgrade head` al arrancar y solo inicia Uvicorn si
+las migraciones terminan correctamente. Deja Docker Command y Pre-Deploy Command
+vacíos en Render para utilizar este flujo con una instancia única. Si escalas a
+varias instancias, traslada las migraciones a un paso único de predespliegue y
+deja en el CMD solamente el arranque de Uvicorn.
 
 Aplica las migraciones antes de utilizar la API con una base nueva. Una base
 existente debe tener su historial Alembic correctamente inicializado. El
