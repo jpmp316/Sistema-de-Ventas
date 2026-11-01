@@ -158,3 +158,74 @@ contraseña actual, una nueva contraseña válida y su confirmación. La API
 `POST /auth/change-password` identifica la cuenta mediante el JWT y no acepta
 un identificador de otro usuario. Cambiar la contraseña conserva la sesión
 actual; los próximos inicios de sesión requieren la nueva contraseña.
+
+
+## Backend en Render con Docker
+
+El archivo `backend/Dockerfile` instala las dependencias y arranca FastAPI con
+Uvicorn en `0.0.0.0:$PORT` (10000 si no se define). `backend/.dockerignore`
+excluye secretos, entornos virtuales, cachés y pruebas de la imagen.
+
+En Render crea un Web Service conectado al repositorio con:
+
+- Language: Docker.
+- Root Directory: `backend`.
+- Dockerfile Path: `./Dockerfile` (relativo a Root Directory).
+- Docker Build Context: `.` (relativo a Root Directory).
+- Docker Command: vacío, para usar el CMD de la imagen.
+
+Configura estas variables en el servicio, sin subir un `.env`:
+
+| Variable | Valor |
+| --- | --- |
+| `DATABASE_URL` | `postgresql+psycopg://USUARIO:CONTRASENA@HOST:5432/BASE` |
+| `SECRET_KEY` | Una clave aleatoria propia de al menos 32 caracteres |
+| `CORS_ORIGINS` | Origen HTTPS real del frontend, sin barra final; varios separados por comas |
+| `ALGORITHM` | `HS256` (opcional, valor predeterminado) |
+| `ACCESS_TOKEN_EXPIRE_MINUTES` | `30` (opcional, valor predeterminado) |
+
+Usa la Internal Database URL de Render Postgres cuando ambos servicios estén en
+la misma región y cambia únicamente `postgresql://` por
+`postgresql+psycopg://`, porque el proyecto utiliza psycopg 3. Conserva el resto
+de la URL, incluidos los caracteres codificados y parámetros de conexión.
+Si construyes la URL manualmente, codifica los caracteres especiales de la
+contraseña (por ejemplo, `@` como `%40`). Con `DATABASE_URL` no necesitas
+configurar las variables `DB_USER`, `DB_PASS`, `DB_HOST`, `DB_PORT` o `DB_NAME`.
+Render proporciona `PORT`. No configures `TEST_DATABASE_URL` en producción.
+
+Genera SECRET_KEY en tu terminal y pega el resultado en Render:
+
+```powershell
+python -c "import secrets; print(secrets.token_urlsafe(32))"
+```
+
+Las migraciones no se ejecutan durante la construcción de la imagen. En un
+servicio de pago puedes definir Pre-Deploy Command: `alembic upgrade head`.
+Para una instancia gratuita única puedes usar este Docker Command para ejecutar
+las migraciones pendientes al arrancar y detener el despliegue si fallan:
+
+```sh
+sh -c 'alembic upgrade head && exec uvicorn main:app --host 0.0.0.0 --port ${PORT:-10000}'
+```
+
+Aplica las migraciones antes de utilizar la API con una base nueva. Una base
+existente debe tener su historial Alembic correctamente inicializado. El
+Dockerfile no copia ni migra tu base local a Render.
+
+Este contenedor sirve la API. Despliega React como sitio estático separado y
+configura allí `VITE_API_BASE_URL=https://TU-API.onrender.com` antes de compilar.
+Incluye el origen de ese sitio en `CORS_ORIGINS` del backend.
+
+Para construir y ejecutar localmente con Docker Desktop iniciado, desde la raíz:
+
+```powershell
+docker build -t nexo-backend ./backend
+docker run --rm -p 10000:10000 --env-file backend/.env nexo-backend
+```
+
+En un contenedor, `localhost` apunta al propio contenedor. Si PostgreSQL corre en
+tu equipo con Docker Desktop, usa `host.docker.internal` como host de conexión.
+
+Referencias: [Docker en Render](https://render.com/docs/docker),
+[puertos de servicios web](https://render.com/docs/web-services#port-binding),
+[comandos de despliegue](https://render.com/docs/deploys#pre-deploy-command).
