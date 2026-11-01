@@ -99,9 +99,42 @@ npm install
 npm run dev
 ```
 
-`VITE_API_BASE_URL` apunta a la API FastAPI. En el módulo Productos inicia sesión
-con un usuario ya creado en el backend; el JWT se conserva en `sessionStorage`
-durante esa sesión del navegador.
+`VITE_API_BASE_URL` apunta a la API FastAPI. Inicia sesión en la pantalla de
+acceso; el JWT se conserva en `sessionStorage` durante esa sesión del navegador.
+
+El administrador accede a todos los módulos y crea cuentas de vendedores desde
+Usuarios. El vendedor entra directamente a Ventas y solo ve Ventas e Inventario.
+Puede consultar el catálogo para armar el carrito, registrar ventas, consultar
+el historial y detalle de ventas del negocio, y revisar sus movimientos de
+inventario. El historial continúa siendo compartido entre los usuarios del negocio.
+
+Las contraseñas nuevas o modificadas deben tener entre 8 y 128 caracteres e
+incluir mayúscula, minúscula, número y símbolo. La API valida esta regla al crear
+usuarios, usar bootstrap-admin y cambiar contraseñas. El inicio de sesión admite
+las contraseñas ya existentes y el almacenamiento sigue usando hash Argon2.
+
+La API verifica el rol actual en PostgreSQL en cada solicitud autenticada. Solo
+el administrador puede gestionar usuarios, productos y categorías o consultar
+reportes. Las consultas del catálogo, las ventas y los movimientos requieren un
+rol admin o vendedor. El bootstrap permite crear el primer administrador sin
+sesión; cuando existen usuarios exige un administrador autenticado. Al cerrar
+sesión se llama a `POST /auth/logout` y se borra la sesión local.
+
+El detalle de venta muestra el responsable y los productos con su código,
+cantidad, precio unitario, subtotal y total. Los importes se conservan desde la
+venta; los nombres y códigos reflejan el catálogo actual. Esta actualización no
+requiere una migración nueva; el logout requiere tener aplicada la migración
+`0005_revoked_tokens` existente (`alembic upgrade head` desde `backend/`).
+
+Al crear un producto con existencias, la API registra una entrada inicial desde
+cero. Al editar sus existencias registra un ajuste por la diferencia, conservando
+el usuario responsable, la fecha y los saldos anterior y posterior. Guardar el
+mismo stock, cambiar otros campos o activar/desactivar no genera movimientos.
+El stock y el movimiento se guardan en una misma transacción. En Inventario los
+ajustes se distinguen como entrada o salida; en Estadísticas los ajustes suman el
+volumen de unidades modificadas en ambos sentidos, no el balance neto.
+Este registro aplica a operaciones nuevas realizadas mediante la API: no
+reconstruye cambios antiguos ni captura modificaciones hechas directamente por SQL.
 
 ## Pruebas
 
@@ -115,3 +148,13 @@ Las pruebas usan SQLite en memoria, crean y eliminan un esquema aislado por
 prueba y nunca reutilizan `DATABASE_URL`. `TEST_DATABASE_URL` solo acepta una
 URL SQLite en memoria; si se configura una base PostgreSQL o un archivo SQLite,
 la suite falla antes de importar la aplicación.
+
+El Dashboard permite seleccionar Hoy, 7, 30 o 90 días. Los periodos y la
+agrupación de ventas por día usan la hora de Colombia (UTC-5); Hoy empieza a
+las 00:00 y termina en el momento de la consulta.
+
+El vendedor dispone de Mi contraseña en el sidebar. El formulario requiere la
+contraseña actual, una nueva contraseña válida y su confirmación. La API
+`POST /auth/change-password` identifica la cuenta mediante el JWT y no acepta
+un identificador de otro usuario. Cambiar la contraseña conserva la sesión
+actual; los próximos inicios de sesión requieren la nueva contraseña.

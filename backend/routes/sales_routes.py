@@ -1,6 +1,6 @@
 from decimal import Decimal
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.orm import Session
 
 from auth.dependencies import get_current_user
@@ -8,7 +8,7 @@ from core.database import get_db
 from models.product import Product
 from models.sales import InventoryMovement, Sale, SaleDetail
 from models.user import User
-from schemas.sales_schemas import SaleCreate, SaleOut
+from schemas.sales_schemas import PaginatedSales, SaleCreate, SaleOut
 
 router = APIRouter(prefix="/sales", tags=["Ventas"])
 
@@ -41,6 +41,17 @@ def create_sale(payload: SaleCreate, current_user: User = Depends(get_current_us
     return sale
 
 
-@router.get("/", response_model=list[SaleOut])
-def list_sales(_current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
-    return db.query(Sale).order_by(Sale.id.desc()).all()
+@router.get("/", response_model=PaginatedSales)
+def list_sales(page: int = Query(1, ge=1), page_size: int = Query(10, ge=1, le=100), _current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+    query = db.query(Sale).order_by(Sale.date.desc(), Sale.id.desc())
+    total = query.count()
+    items = query.offset((page - 1) * page_size).limit(page_size).all()
+    return PaginatedSales(items=items, total=total, page=page, page_size=page_size, total_pages=(total + page_size - 1) // page_size)
+
+
+@router.get("/{sale_id}", response_model=SaleOut)
+def get_sale(sale_id: int, _current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+    sale = db.query(Sale).filter(Sale.id == sale_id).first()
+    if sale is None:
+        raise HTTPException(status_code=404, detail="Venta no encontrada")
+    return sale

@@ -24,5 +24,6 @@ class CategoryOut(BaseModel):
 
     id: int
     name: str
+    is_active: bool
     created_at: datetime
     updated_at: datetime | None = None

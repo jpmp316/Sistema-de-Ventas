@@ -1,8 +1,8 @@
 import os
 
 from fastapi import FastAPI
-from models import user, product, role, sales  # noqa: F401
-from routes import category_routes, user_routes, product_routes, sales_routes
+from models import user, product, role, sales, revoked_token  # noqa: F401
+from routes import category_routes, user_routes, product_routes, sales_routes, inventory_routes, reports_routes
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="FastAPI Inventory")
@@ -26,5 +26,7 @@ app.include_router(user_routes.router)
 app.include_router(product_routes.router)
 app.include_router(category_routes.router)
 app.include_router(sales_routes.router)
+app.include_router(inventory_routes.router)
+app.include_router(reports_routes.router)
 
 

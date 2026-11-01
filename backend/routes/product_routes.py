@@ -1,12 +1,13 @@
 from fastapi import APIRouter, Depends, HTTPException, Response, status
 from sqlalchemy import func
-from sqlalchemy.exc import IntegrityError
+from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 from sqlalchemy.orm import Session
 
-from auth.dependencies import get_current_user
+from auth.dependencies import get_current_user, require_admin
 from core.database import get_db
 from models.category import Category
 from models.product import Product
+from models.sales import InventoryMovement
 from models.user import User
 from schemas.product_schemas import (
     PaginatedProducts,
@@ -18,8 +19,11 @@ from schemas.product_schemas import (
 router = APIRouter()
 
 
-def get_product_or_404(db: Session, product_id: int) -> Product:
-    product = db.query(Product).filter(Product.id == product_id).first()
+def get_product_or_404(db: Session, product_id: int, *, lock: bool = False) -> Product:
+    query = db.query(Product).filter(Product.id == product_id)
+    if lock:
+        query = query.with_for_update()
+    product = query.first()
 
     if not product:
         raise HTTPException(
@@ -33,7 +37,7 @@ def get_product_or_404(db: Session, product_id: int) -> Product:
 @router.post("/products/", response_model=ProductOut, status_code=status.HTTP_201_CREATED)
 def create_product(
     product_in: ProductCreate,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     name = product_in.name.strip()
@@ -65,6 +69,15 @@ def create_product(
     )
 
     db.add(product)
+    if product.stock > 0:
+        db.add(InventoryMovement(
+            product=product,
+            user_id=_current_user.id,
+            type="entry",
+            quantity=product.stock,
+            previous_stock=0,
+            resulting_stock=product.stock,
+        ))
     try:
         db.commit()
     except IntegrityError as exc:
@@ -73,6 +86,9 @@ def create_product(
             status_code=status.HTTP_409_CONFLICT,
             detail="Ya existe un producto con ese nombre o código",
         ) from exc
+    except SQLAlchemyError:
+        db.rollback()
+        raise
     db.refresh(product)
 
     return product
@@ -80,17 +96,23 @@ def create_product(
 
 @router.get("/products/", response_model=PaginatedProducts)
 def list_products(
+    page: int = 1,
+    page_size: int = 20,
     _current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
-    items = db.query(Product).order_by(Product.id).all()
+    page = max(page, 1)
+    page_size = max(min(page_size, 100), 1)
+    query = db.query(Product).order_by(Product.id)
+    total = query.count()
+    items = query.offset((page - 1) * page_size).limit(page_size).all()
 
     return PaginatedProducts(
         items=items,
-        total=len(items),
-        page=1,
-        page_size=len(items),
-        total_pages=1 if items else 0,
+        total=total,
+        page=page,
+        page_size=page_size,
+        total_pages=(total + page_size - 1) // page_size,
     )
 
 
@@ -138,10 +160,12 @@ def get_product(
 def update_product(
     product_id: int,
     product_in: ProductUpdate,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
-    product = get_product_or_404(db, product_id)
+    # El mismo bloqueo que usan las ventas evita calcular el ajuste sobre un
+    # stock que otra operación está descontando simultáneamente.
+    product = get_product_or_404(db, product_id, lock=True)
 
     if product_in.name is not None:
         name = product_in.name.strip()
@@ -185,8 +209,17 @@ def update_product(
     if product_in.price_cents is not None:
         product.price_cents = product_in.price_cents
 
-    if product_in.stock is not None:
+    if product_in.stock is not None and product_in.stock != product.stock:
+        previous_stock = product.stock
         product.stock = product_in.stock
+        db.add(InventoryMovement(
+            product_id=product.id,
+            user_id=_current_user.id,
+            type="adjustment",
+            quantity=abs(product.stock - previous_stock),
+            previous_stock=previous_stock,
+            resulting_stock=product.stock,
+        ))
 
     if product_in.min_stock is not None:
         product.min_stock = product_in.min_stock
@@ -202,6 +235,9 @@ def update_product(
             status_code=status.HTTP_409_CONFLICT,
             detail="Ya existe un producto con ese nombre o código",
         ) from exc
+    except SQLAlchemyError:
+        db.rollback()
+        raise
     db.refresh(product)
 
     return product
@@ -210,7 +246,7 @@ def update_product(
 @router.delete("/products/{product_id}", status_code=status.HTTP_204_NO_CONTENT)
 def delete_product(
     product_id: int,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     product = get_product_or_404(db, product_id)

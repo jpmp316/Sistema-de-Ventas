@@ -38,11 +38,24 @@ export async function apiRequest(path, { token, ...options } = {}) {
   return data;
 }
 
-const jsonBody = (data) => JSON.stringify(data);
+export const logoutUser = (token) => apiRequest("/auth/logout", { method: "POST", token });
 
-export const getProducts = (token) => apiRequest("/products/", { token });
+const jsonBody = (data) => JSON.stringify(data);
+export const changePassword = (token, currentPassword, newPassword) => apiRequest("/auth/change-password", {
+  method: "POST", token, body: jsonBody({ current_password: currentPassword, new_password: newPassword }),
+});
+
+export const getProducts = (token, page = 1, pageSize = 20) => apiRequest(`/products/?page=${page}&page_size=${pageSize}`, { token });
 export const getCategories = (token) => apiRequest("/categories/", { token });
 export const createProduct = (token, product) => apiRequest("/products/", { method: "POST", token, body: jsonBody(product) });
 export const updateProduct = (token, productId, changes) => apiRequest(`/products/${productId}`, { method: "PUT", token, body: jsonBody(changes) });
 export const setProductActive = (token, productId, isActive) => updateProduct(token, productId, { is_active: isActive });
 export const createCategory = (token, name) => apiRequest("/categories/", { method: "POST", token, body: jsonBody({ name }) });
+export const getSales = (token, page = 1, pageSize = 10) => apiRequest(`/sales/?page=${page}&page_size=${pageSize}`, { token });
+export const getSale = (token, saleId) => apiRequest(`/sales/${saleId}`, { token });
+export const createSale = (token, items) => apiRequest("/sales/", { method: "POST", token, body: jsonBody({ items }) });
+export const getInventoryMovements = (token, filters = {}, page = 1, pageSize = 20) => {
+  const query = new URLSearchParams(Object.entries({ ...filters, page, page_size: pageSize }).filter(([, value]) => value));
+  return apiRequest(`/inventory/movements${query.size ? `?${query}` : ""}`, { token });
+};
+export const getReportSummary = (token, days) => apiRequest(`/reports/summary?days=${days}`, { token });

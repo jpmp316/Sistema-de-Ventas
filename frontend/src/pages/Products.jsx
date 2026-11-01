@@ -17,6 +17,8 @@ const formatCurrency = (cents) =>
 
 function Products() {
   const [products, setProducts] = useState([]);
+  const [productsPage, setProductsPage] = useState({ total: 0, total_pages: 0 });
+  const [page, setPage] = useState(1);
   const [categories, setCategories] = useState([]);
   const { token, logout: contextLogout } = useAuth();
   const [loading, setLoading] = useState(true);
@@ -49,11 +51,12 @@ function Products() {
       setLoadError("");
       try {
         const [response, categoryResponse] = await Promise.all([
-          getProducts(token),
+          getProducts(token, page, 10),
           getCategories(token),
         ]);
         if (!cancelled) {
           setProducts(response.items);
+          setProductsPage(response);
           setCategories(categoryResponse);
         }
       } catch (error) {
@@ -72,7 +75,7 @@ function Products() {
     return () => {
       cancelled = true;
     };
-  }, [token, reloadVersion, contextLogout]);
+  }, [token, reloadVersion, contextLogout, page]);
 
   const filteredProducts = products.filter((product) => {
     const query = search.trim().toLowerCase();
@@ -289,6 +292,7 @@ function Products() {
             <label className="new-product-field">
               <span>Existencias</span>
               <input name="stock" type="number" value={form.stock} onChange={updateFormField} min="0" step="1" disabled={busy} required />
+              <small>Al guardar, los cambios de existencias se registran en el historial de inventario.</small>
             </label>
             <label className="new-product-field">
               <span>Stock mínimo</span>
@@ -374,6 +378,7 @@ function Products() {
           </table>
         </div>
         <div className="products-footer">Mostrando {filteredProducts.length} de {products.length} productos</div>
+        <div className="pagination-bar"><span>{productsPage.total} productos · página {productsPage.page} de {Math.max(productsPage.total_pages, 1)}</span><div><button className="subtle-button" disabled={page<=1||loading} onClick={()=>setPage(p=>p-1)}>Anterior</button><button className="subtle-button" disabled={page>=productsPage.total_pages||loading} onClick={()=>setPage(p=>p+1)}>Siguiente</button></div></div>
       </section>
     </>
   );

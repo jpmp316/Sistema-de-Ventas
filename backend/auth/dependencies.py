@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from core.database import get_db
 from models.user import User
 from auth.auth_handler import verificar_token
+from models.revoked_token import RevokedToken
 security = HTTPBearer()
 
 async def get_current_user(
@@ -18,6 +19,13 @@ async def get_current_user(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Token inválido o expirado",
             headers={"WWW-Authenticate": "Bearer"}
+        )
+    jti = payload.get("jti")
+    if not jti or db.query(RevokedToken).filter(RevokedToken.jti == jti).first():
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Token revocado o inválido",
+            headers={"WWW-Authenticate": "Bearer"},
         )
     username: str = payload.get("sub")
     if not username:
@@ -36,4 +44,12 @@ async def get_current_user(
             headers={"WWW-Authenticate": "Bearer"}
         )
 
+    if user.role.name not in ("admin", "vendedor"):
+        raise HTTPException(status_code=403, detail="Rol sin acceso al sistema")
     return user
+
+
+def require_admin(current_user: User = Depends(get_current_user)) -> User:
+    if current_user.role.name != "admin":
+        raise HTTPException(status_code=403, detail="Se requiere una sesión de administrador")
+    return current_user

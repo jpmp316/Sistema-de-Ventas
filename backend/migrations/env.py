@@ -8,6 +8,7 @@ import models.product  # noqa: F401
 import models.user  # noqa: F401
 import models.role  # noqa: F401
 import models.sales  # noqa: F401
+import models.revoked_token  # noqa: F401
 
 config = context.config
 config.set_main_option("sqlalchemy.url", str(DATABASE_URL).replace("%", "%%"))

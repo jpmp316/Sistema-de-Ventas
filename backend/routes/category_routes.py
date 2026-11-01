@@ -3,7 +3,7 @@ from sqlalchemy import func
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from auth.dependencies import get_current_user
+from auth.dependencies import get_current_user, require_admin
 from core.database import get_db
 from models.category import Category
 from models.product import Product
@@ -31,7 +31,7 @@ def list_categories(
 @router.post("/categories/", response_model=CategoryOut, status_code=status.HTTP_201_CREATED)
 def create_category(
     category_in: CategoryCreate,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     name = category_in.name.strip()
@@ -53,7 +53,7 @@ def create_category(
 def update_category(
     category_id: int,
     category_in: CategoryUpdate,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     category = get_category_or_404(db, category_id)
@@ -77,7 +77,7 @@ def update_category(
 @router.delete("/categories/{category_id}", status_code=status.HTTP_204_NO_CONTENT)
 def delete_category(
     category_id: int,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     category = get_category_or_404(db, category_id)

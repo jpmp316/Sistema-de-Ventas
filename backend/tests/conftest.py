@@ -79,7 +79,7 @@ def user_data():
     unique_value = uuid.uuid4().hex[:10]
     return {
         "username": f"user_{unique_value}",
-        "password": "Password123",
+        "password": "Password123!",
     }
 
 

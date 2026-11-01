@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useMemo, useState } from "react";
-import { apiRequest } from "../api";
+import { apiRequest, logoutUser } from "../api";
 
 const AuthContext = createContext(null);
 
@@ -23,11 +23,17 @@ export function AuthProvider({ children }) {
     return next;
   }, []);
 
-  const logout = useCallback(() => {
-    sessionStorage.removeItem("nexo_session");
-    sessionStorage.removeItem("nexo_access_token");
-    setSession(null);
-  }, []);
+  const logout = useCallback(async (tokenToRevoke = session?.token) => {
+    try {
+      if (tokenToRevoke) await logoutUser(tokenToRevoke);
+    } catch {
+      // El cierre local debe completarse aunque la API no esté disponible.
+    } finally {
+      sessionStorage.removeItem("nexo_session");
+      sessionStorage.removeItem("nexo_access_token");
+      setSession(null);
+    }
+  }, [session?.token]);
 
   const value = useMemo(() => ({ session, token: session?.token ?? null, login, logout }), [session, login, logout]);
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

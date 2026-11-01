@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta, timezone
 import os
+from uuid import uuid4
 from jose import JWTError, jwt
 from dotenv import load_dotenv
 
@@ -26,7 +27,7 @@ if ACCESS_TOKEN_EXPIRE_MINUTES <= 0:
 def crear_token(data: dict, expiracion: int = ACCESS_TOKEN_EXPIRE_MINUTES):
     to_encode = data.copy()
     expire = datetime.now(timezone.utc) + timedelta(minutes=expiracion)
-    to_encode.update({"exp": expire})
+    to_encode.update({"exp": expire, "jti": str(uuid4())})
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
 def verificar_token(token: str):

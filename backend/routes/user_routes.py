@@ -1,15 +1,19 @@
+from datetime import datetime, timezone
+
 from fastapi import APIRouter, Depends, HTTPException, Response, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer, OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 
 from auth.auth_handler import ACCESS_TOKEN_EXPIRE_MINUTES, crear_token, verificar_token
 from auth.auth_service import hashear_password, verificar_password
-from auth.dependencies import get_current_user
+from auth.dependencies import get_current_user, require_admin
 from core.database import get_db
 from models.user import User
 from models.role import Role
+from models.revoked_token import RevokedToken
 from schemas.user_schemas import (
     PaginatedUsers,
+    PasswordChange,
     Token,
     UserCreate,
     UserOut,
@@ -18,6 +22,7 @@ from schemas.user_schemas import (
 
 router = APIRouter()
 optional_bearer = HTTPBearer(auto_error=False)
+required_bearer = HTTPBearer()
 
 
 def get_optional_current_user(
@@ -27,6 +32,10 @@ def get_optional_current_user(
     if credentials is None:
         return None
     payload = verificar_token(credentials.credentials)
+    if not payload or not payload.get("jti"):
+        return None
+    if db.query(RevokedToken).filter(RevokedToken.jti == payload["jti"]).first():
+        return None
     username = payload.get("sub") if payload else None
     return db.query(User).filter(User.username == username).first() if username else None
 
@@ -72,11 +81,55 @@ def login(
     )
 
 
+@router.post("/auth/change-password", status_code=status.HTTP_204_NO_CONTENT)
+def change_password(
+    payload: PasswordChange,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
+    user = db.query(User).filter(User.id == current_user.id).with_for_update().populate_existing().one()
+    if not verificar_password(payload.current_password, user.hashed_password):
+        raise HTTPException(status_code=400, detail="La contraseña actual es incorrecta")
+    if verificar_password(payload.new_password, user.hashed_password):
+        raise HTTPException(status_code=422, detail="La nueva contraseña debe ser diferente a la actual")
+    user.hashed_password = hashear_password(payload.new_password)
+    try:
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+@router.post("/auth/logout", status_code=status.HTTP_204_NO_CONTENT)
+def logout(
+    credentials: HTTPAuthorizationCredentials = Depends(required_bearer),
+    _current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
+    """Revoca el JWT presentado; el cliente también debe borrar su copia local."""
+    payload = verificar_token(credentials.credentials)
+    jti = payload.get("jti") if payload else None
+    expires_at = payload.get("exp") if payload else None
+    if not jti or not expires_at:
+        raise HTTPException(status_code=401, detail="El token no puede revocarse")
+
+    db.query(RevokedToken).filter(
+        RevokedToken.expires_at <= datetime.now(timezone.utc)
+    ).delete(synchronize_session=False)
+    db.add(RevokedToken(
+        jti=jti,
+        expires_at=datetime.fromtimestamp(expires_at, tz=timezone.utc),
+    ))
+    db.commit()
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
 @router.post("/users/",response_model=UserOut,status_code=status.HTTP_201_CREATED,)
 def create_user(
     user_in: UserCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    current_user: User = Depends(require_admin),
 ):
     username = user_in.username.strip().lower()
 
@@ -85,9 +138,6 @@ def create_user(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="El nombre de usuario ya existe",
         )
-
-    if current_user.role.name != "admin":
-        raise HTTPException(status_code=403, detail="Solo un administrador puede crear usuarios")
 
     user = User(
         username=username,
@@ -124,7 +174,7 @@ def bootstrap_admin(
 
 @router.get("/users/", response_model=PaginatedUsers)
 def list_users(
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     items = db.query(User).order_by(User.id).all()
@@ -142,7 +192,7 @@ def list_users(
 def paginated_users(
     page: int = 1,
     page_size: int = 10,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     page = max(page, 1)
@@ -172,7 +222,7 @@ def paginated_users(
 @router.get("/users/{user_id}", response_model=UserOut)
 def get_user(
     user_id: int,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     return get_user_or_404(db, user_id)
@@ -182,7 +232,7 @@ def get_user(
 def update_user(
     user_id: int,
     user_in: UserUpdate,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     user = get_user_or_404(db, user_id)
@@ -213,7 +263,7 @@ def update_user(
 @router.delete("/users/{user_id}", status_code=status.HTTP_204_NO_CONTENT)
 def delete_user(
     user_id: int,
-    _current_user: User = Depends(get_current_user),
+    _current_user: User = Depends(require_admin),
     db: Session = Depends(get_db),
 ):
     user = get_user_or_404(db, user_id)

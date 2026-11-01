@@ -6,8 +6,8 @@ import {
   Boxes,
   Users,
   ChartNoAxesCombined,
-  Settings,
   Store,
+  KeyRound,
 } from "lucide-react";
 
 const menuItems = [
@@ -15,13 +15,12 @@ const menuItems = [
   { label: "Ventas", icon: ShoppingCart },
   { label: "Productos", icon: Package },
   { label: "Inventario", icon: Boxes },
-  { label: "Clientes", icon: Users },
   { label: "Estadísticas", icon: ChartNoAxesCombined },
-  { label: "Configuración", icon: Settings },
   { label: "Usuarios", icon: Users },
+  { label: "Mi contraseña", icon: KeyRound, sellerOnly: true },
 ];
 
-function Sidebar({ vistaActual, onCambiarVista }) {
+function Sidebar({ vistaActual, onCambiarVista, role }) {
   return (
     <aside className="sidebar">
       <div className="brand">
@@ -33,7 +32,7 @@ function Sidebar({ vistaActual, onCambiarVista }) {
       </div>
 
       <nav className="sidebar-nav">
-        {menuItems.map((item, index) => {
+        {menuItems.filter((item) => (role === "admin" && !item.sellerOnly) || (role === "vendedor" && ["Ventas", "Inventario", "Mi contraseña"].includes(item.label))).map((item) => {
           const Icon = item.icon;
           return (
             <button
