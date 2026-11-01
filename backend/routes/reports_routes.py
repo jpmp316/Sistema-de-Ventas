@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+from decimal import Decimal, ROUND_HALF_UP
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import func
 from sqlalchemy.orm import Session
@@ -52,11 +53,12 @@ def report_summary(days: int = Query(7, ge=1, le=365), _current_user: User = Dep
     category_stock = (db.query(Product.category_id, func.sum(Product.stock).label("units"))
                       .filter(Product.is_active.is_(True)).group_by(Product.category_id).all())
     categories = {category.id: category.name for category in db.query(Category).all()}
-    prev_revenue = sum(float(s.total) for s in previous_sales)
-    revenue = sum(float(s.total) for s in sales)
-    return {"days": days, "revenue": round(sum(float(s.total) for s in sales), 2), "operations": len(sales),
-            "previous_revenue": round(prev_revenue, 2), "previous_operations": len(previous_sales),
-            "average_ticket": round(revenue / len(sales), 2) if sales else 0,
+    prev_revenue = sum((s.total for s in previous_sales), Decimal("0.00"))
+    revenue = sum((s.total for s in sales), Decimal("0.00"))
+    average_ticket = (revenue / len(sales)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP) if sales else Decimal("0.00")
+    return {"days": days, "revenue": float(revenue), "operations": len(sales),
+            "previous_revenue": float(prev_revenue), "previous_operations": len(previous_sales),
+            "average_ticket": float(average_ticket),
             "low_stock_products": low_stock, "inventory_movements": movements,
             "sales_by_day": list(by_day.values()), "inventory_by_day": list(inventory_days.values()),
             "stock_by_category": [{"category": categories.get(category_id, "Sin categoría"), "units": int(units or 0)} for category_id, units in category_stock],

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bell, ChevronDown, Search, UserPlus } from "lucide-react";
+import { ChevronDown, UserPlus } from "lucide-react";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
 import Dashboard from "./pages/Dashboard";
@@ -73,7 +73,7 @@ function App() {
   </form></main>;
 
   return <div className="app-layout"><Sidebar vistaActual={currentView} onCambiarVista={setVistaActual} role={session.role}/><main className="main-content">
-    <header className="topbar"><div className="mobile-brand">Nexo</div><div className="topbar-spacer"/><label className="search-box"><Search size={18}/><input type="search" placeholder="Buscar..."/></label><button className="icon-button" aria-label="Notificaciones"><Bell size={20}/><span className="notification-dot"/></button><div className="profile-menu"><button className="profile-button" aria-expanded={profileMenuOpen} onClick={() => setProfileMenuOpen((open) => !open)}><span className="avatar">{session.username.slice(0,1).toUpperCase()}</span><span>{session.username} · {isAdmin ? "Administrador" : "Vendedor"}</span><ChevronDown size={16}/></button>{profileMenuOpen && <div className="profile-menu-dropdown"><button type="button" disabled={busy} onClick={closeSession}>Cerrar sesión</button></div>}</div></header>
+    <header className="topbar"><div className="mobile-brand">Nexo</div><div className="topbar-spacer"/><div className="profile-menu"><button className="profile-button" aria-expanded={profileMenuOpen} onClick={() => setProfileMenuOpen((open) => !open)}><span className="avatar">{session.username.slice(0,1).toUpperCase()}</span><span>{session.username} · {isAdmin ? "Administrador" : "Vendedor"}</span><ChevronDown size={16}/></button>{profileMenuOpen && <div className="profile-menu-dropdown"><button type="button" disabled={busy} onClick={closeSession}>Cerrar sesión</button></div>}</div></header>
     {isAdmin && currentView === "resumen" && <Dashboard/>}{isAdmin && currentView === "estadísticas" && <Statistics/>}{isAdmin && currentView === "productos" && <Products/>}{currentView === "ventas" && <Sales/>}{currentView === "inventario" && <Inventory/>}{session.role === "vendedor" && currentView === "mi contraseña" && <ChangePassword/>}
     {isAdmin && currentView === "usuarios" && <section className="panel new-product-form"><h1>Crear vendedor</h1><form onSubmit={createSeller} className="new-product-fields"><label className="new-product-field"><span>Usuario</span><input required minLength="3" maxLength="50" value={userForm.username} onChange={e=>setUserForm({...userForm,username:e.target.value})}/></label><label className="new-product-field"><span>Contraseña</span><input type="password" autoComplete="new-password" required minLength="8" maxLength="128" aria-describedby="seller-password-help" value={userForm.password} onChange={e=>setUserForm({...userForm,password:e.target.value})}/><small id="seller-password-help">{PASSWORD_HELP}</small></label><button className="primary-button" disabled={busy}><UserPlus size={17}/> Crear vendedor</button></form>{userMessage&&<p role="status">{userMessage}</p>}</section>}
   </main></div>;

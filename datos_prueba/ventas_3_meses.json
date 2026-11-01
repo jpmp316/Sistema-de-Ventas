@@ -1,0 +1,5743 @@
+[
+  {
+    "reference": "NEXO-TRIM-VENTA-0001",
+    "date": "2026-08-01T08:02:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 4,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1880000
+      }
+    ],
+    "total_cents": 1880000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0002",
+    "date": "2026-08-02T08:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      },
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 4,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 4320000
+      }
+    ],
+    "total_cents": 6050000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0003",
+    "date": "2026-08-03T08:55:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 4,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 13000000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 1,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 520000
+      }
+    ],
+    "total_cents": 14240000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0004",
+    "date": "2026-08-03T09:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 2,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 3780000
+      },
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 4,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 2480000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      }
+    ],
+    "total_cents": 13060000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0005",
+    "date": "2026-08-04T08:53:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 3,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 540000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 1,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 520000
+      }
+    ],
+    "total_cents": 2320000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0006",
+    "date": "2026-08-04T09:27:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 2,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 6500000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      }
+    ],
+    "total_cents": 7550000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0007",
+    "date": "2026-08-04T10:17:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 1,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 180000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 2,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 6500000
+      }
+    ],
+    "total_cents": 7160000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0008",
+    "date": "2026-08-04T11:38:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      }
+    ],
+    "total_cents": 3730000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0009",
+    "date": "2026-08-05T08:48:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      }
+    ],
+    "total_cents": 3900000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0010",
+    "date": "2026-08-06T08:23:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 4,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 5120000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 4,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2880000
+      }
+    ],
+    "total_cents": 8000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0011",
+    "date": "2026-08-06T09:24:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 3,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 2070000
+      }
+    ],
+    "total_cents": 4670000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0012",
+    "date": "2026-08-07T08:54:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 2,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 1360000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 1,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 3250000
+      }
+    ],
+    "total_cents": 4610000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0013",
+    "date": "2026-08-08T08:24:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 4,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 1520000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 2,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 1160000
+      }
+    ],
+    "total_cents": 4630000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0014",
+    "date": "2026-08-08T09:43:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 2,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 3160000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 3,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2160000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      }
+    ],
+    "total_cents": 9620000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0015",
+    "date": "2026-08-09T08:26:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 1,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 1950000
+      }
+    ],
+    "total_cents": 3700000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0016",
+    "date": "2026-08-09T09:40:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 2,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 2,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 3780000
+      }
+    ],
+    "total_cents": 5340000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0017",
+    "date": "2026-08-09T10:14:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 4,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1920000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      }
+    ],
+    "total_cents": 3870000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0018",
+    "date": "2026-08-10T08:20:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 1,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 470000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 2,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 2300000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 3,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 540000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 4,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 7800000
+      }
+    ],
+    "total_cents": 12890000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0019",
+    "date": "2026-08-10T09:32:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 3,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1410000
+      },
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 4,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1560000
+      }
+    ],
+    "total_cents": 6270000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0020",
+    "date": "2026-08-10T10:22:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 4,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 3560000
+      }
+    ],
+    "total_cents": 3560000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0021",
+    "date": "2026-08-10T11:42:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 3,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 4350000
+      },
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      }
+    ],
+    "total_cents": 5700000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0022",
+    "date": "2026-08-11T08:24:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 1,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 690000
+      }
+    ],
+    "total_cents": 690000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0023",
+    "date": "2026-08-11T09:16:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 3,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 2070000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 1,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 1,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 1950000
+      }
+    ],
+    "total_cents": 5220000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0024",
+    "date": "2026-08-12T08:54:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 4,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 4,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 2080000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 2,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 1380000
+      },
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 2,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 1360000
+      }
+    ],
+    "total_cents": 8180000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0025",
+    "date": "2026-08-12T09:07:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 4,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 3280000
+      }
+    ],
+    "total_cents": 4330000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0026",
+    "date": "2026-08-12T10:27:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      }
+    ],
+    "total_cents": 1300000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0027",
+    "date": "2026-08-12T11:15:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      }
+    ],
+    "total_cents": 1440000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0028",
+    "date": "2026-08-13T08:31:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 4,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 13000000
+      }
+    ],
+    "total_cents": 13000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0029",
+    "date": "2026-08-13T09:18:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      }
+    ],
+    "total_cents": 1170000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0030",
+    "date": "2026-08-14T08:45:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 4,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 3120000
+      }
+    ],
+    "total_cents": 3120000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0031",
+    "date": "2026-08-14T09:51:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      }
+    ],
+    "total_cents": 1230000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0032",
+    "date": "2026-08-14T10:54:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 3,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 4350000
+      }
+    ],
+    "total_cents": 5000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0033",
+    "date": "2026-08-14T11:18:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 2,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 3780000
+      },
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 4,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      }
+    ],
+    "total_cents": 8060000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0034",
+    "date": "2026-08-15T08:33:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 1,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 250000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      }
+    ],
+    "total_cents": 2630000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0035",
+    "date": "2026-08-15T09:47:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 2,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 2160000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 4,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 3560000
+      }
+    ],
+    "total_cents": 7500000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0036",
+    "date": "2026-08-15T10:12:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 3,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2160000
+      },
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 1,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 690000
+      },
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 4,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 2480000
+      }
+    ],
+    "total_cents": 5810000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0037",
+    "date": "2026-08-15T11:09:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 4,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 2720000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 3,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      }
+    ],
+    "total_cents": 4730000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0038",
+    "date": "2026-08-16T08:07:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 1,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      }
+    ],
+    "total_cents": 7550000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0039",
+    "date": "2026-08-16T09:01:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 3,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 4350000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 2,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 3780000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 4,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 2320000
+      }
+    ],
+    "total_cents": 15090000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0040",
+    "date": "2026-08-16T10:19:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 2,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      }
+    ],
+    "total_cents": 4160000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0041",
+    "date": "2026-08-17T08:15:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 1,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 4,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 2080000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 4,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2880000
+      }
+    ],
+    "total_cents": 8520000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0042",
+    "date": "2026-08-17T09:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 2,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 960000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 2,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 960000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 3,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 540000
+      }
+    ],
+    "total_cents": 3760000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0043",
+    "date": "2026-08-17T10:37:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 4,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1880000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 3,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 540000
+      }
+    ],
+    "total_cents": 2420000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0044",
+    "date": "2026-08-17T11:33:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 1,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 250000
+      },
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      }
+    ],
+    "total_cents": 1690000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0045",
+    "date": "2026-08-18T08:40:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 4,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 1000000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 4,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1400000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 1,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 350000
+      }
+    ],
+    "total_cents": 4530000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0046",
+    "date": "2026-08-19T08:44:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 4,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 2480000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 1,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 580000
+      },
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 3,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 540000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 4,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 3560000
+      }
+    ],
+    "total_cents": 8510000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0047",
+    "date": "2026-08-19T09:34:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 2,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 2560000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 4,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 7800000
+      }
+    ],
+    "total_cents": 10360000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0048",
+    "date": "2026-08-20T08:34:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 4,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 2480000
+      }
+    ],
+    "total_cents": 6680000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0049",
+    "date": "2026-08-21T08:04:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 2,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1040000
+      }
+    ],
+    "total_cents": 1040000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0050",
+    "date": "2026-08-21T09:51:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 2,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 840000
+      },
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 2,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 3160000
+      }
+    ],
+    "total_cents": 4000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0051",
+    "date": "2026-08-21T10:40:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 4,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 2080000
+      },
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 4,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 5800000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      }
+    ],
+    "total_cents": 11130000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0052",
+    "date": "2026-08-21T11:40:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 3,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 1860000
+      }
+    ],
+    "total_cents": 1860000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0053",
+    "date": "2026-08-22T08:59:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 1,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 470000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 2,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 2300000
+      },
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      }
+    ],
+    "total_cents": 4510000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0054",
+    "date": "2026-08-23T08:00:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      }
+    ],
+    "total_cents": 1260000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0055",
+    "date": "2026-08-23T09:10:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      }
+    ],
+    "total_cents": 420000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0056",
+    "date": "2026-08-24T08:56:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 3,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 2,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 6500000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 4,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 5280000
+      },
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 3,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 1860000
+      },
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 4,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 4320000
+      }
+    ],
+    "total_cents": 19520000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0057",
+    "date": "2026-08-24T09:01:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      },
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 3,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 1140000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 1,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 220000
+      }
+    ],
+    "total_cents": 2110000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0058",
+    "date": "2026-08-24T10:08:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 1,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 380000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      }
+    ],
+    "total_cents": 3190000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0059",
+    "date": "2026-08-24T11:59:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 2,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 440000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 2,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 6500000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 2,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 3780000
+      }
+    ],
+    "total_cents": 10720000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0060",
+    "date": "2026-08-25T08:03:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 4,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 2720000
+      }
+    ],
+    "total_cents": 2720000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0061",
+    "date": "2026-08-25T09:42:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 1,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 1580000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 1,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 1320000
+      },
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 3,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 2070000
+      }
+    ],
+    "total_cents": 6650000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0062",
+    "date": "2026-08-25T10:05:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 3,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1560000
+      }
+    ],
+    "total_cents": 2010000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0063",
+    "date": "2026-08-26T08:55:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 4,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 13000000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 3,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 2070000
+      },
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      }
+    ],
+    "total_cents": 18840000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0064",
+    "date": "2026-08-26T09:32:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 3,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 2670000
+      }
+    ],
+    "total_cents": 2670000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0065",
+    "date": "2026-08-27T08:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      }
+    ],
+    "total_cents": 1780000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0066",
+    "date": "2026-08-28T08:42:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 2,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 1360000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 1,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 560000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      }
+    ],
+    "total_cents": 3270000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0067",
+    "date": "2026-08-29T08:25:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 4,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 5280000
+      }
+    ],
+    "total_cents": 5280000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0068",
+    "date": "2026-08-29T09:17:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 3,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      },
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 4,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 1520000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 4,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1880000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 4,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 7800000
+      }
+    ],
+    "total_cents": 17760000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0069",
+    "date": "2026-08-30T08:20:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 1,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 920000
+      },
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 2,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 2900000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 4,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 1000000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 2,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1120000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      }
+    ],
+    "total_cents": 6990000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0070",
+    "date": "2026-08-30T09:47:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      },
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 2,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 840000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 2,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 2900000
+      }
+    ],
+    "total_cents": 4850000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0071",
+    "date": "2026-08-31T08:39:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 1,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 520000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 1,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 1280000
+      }
+    ],
+    "total_cents": 6400000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0072",
+    "date": "2026-08-31T09:27:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 4,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 2080000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 4,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 2320000
+      },
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 4,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 4600000
+      }
+    ],
+    "total_cents": 9480000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0073",
+    "date": "2026-09-01T08:54:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 4,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 4320000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 1,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 520000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      }
+    ],
+    "total_cents": 7690000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0074",
+    "date": "2026-09-01T09:47:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      }
+    ],
+    "total_cents": 500000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0075",
+    "date": "2026-09-01T10:28:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      },
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 3,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 4740000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      }
+    ],
+    "total_cents": 5850000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0076",
+    "date": "2026-09-02T08:13:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 1,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 220000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 4,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 3920000
+      },
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 1,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 1280000
+      }
+    ],
+    "total_cents": 11200000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0077",
+    "date": "2026-09-02T09:33:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      }
+    ],
+    "total_cents": 2600000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0078",
+    "date": "2026-09-03T08:14:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 4,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 3680000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 3,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 2670000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 3,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 660000
+      }
+    ],
+    "total_cents": 7010000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0079",
+    "date": "2026-09-03T09:50:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 2,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 2560000
+      }
+    ],
+    "total_cents": 2560000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0080",
+    "date": "2026-09-04T08:04:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 1,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 680000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      }
+    ],
+    "total_cents": 2080000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0081",
+    "date": "2026-09-04T09:09:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 2,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1040000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 1,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 350000
+      }
+    ],
+    "total_cents": 3940000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0082",
+    "date": "2026-09-05T08:36:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 2,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 3900000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 4,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 880000
+      }
+    ],
+    "total_cents": 7280000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0083",
+    "date": "2026-09-05T09:03:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 3,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 5850000
+      }
+    ],
+    "total_cents": 9210000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0084",
+    "date": "2026-09-05T10:17:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 4,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 1000000
+      }
+    ],
+    "total_cents": 1000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0085",
+    "date": "2026-09-06T08:20:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 3,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 2340000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 2,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 940000
+      },
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 3,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 3840000
+      },
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      }
+    ],
+    "total_cents": 7900000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0086",
+    "date": "2026-09-06T09:58:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 1,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 3,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 5850000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 3,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 9750000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 2,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1040000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 1,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 980000
+      }
+    ],
+    "total_cents": 18400000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0087",
+    "date": "2026-09-06T10:33:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 2,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 4,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1560000
+      }
+    ],
+    "total_cents": 4250000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0088",
+    "date": "2026-09-06T11:18:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 2,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 1840000
+      }
+    ],
+    "total_cents": 1840000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0089",
+    "date": "2026-09-07T08:01:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      }
+    ],
+    "total_cents": 1920000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0090",
+    "date": "2026-09-07T09:45:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 1,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 220000
+      }
+    ],
+    "total_cents": 220000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0091",
+    "date": "2026-09-07T10:20:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 1,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 350000
+      },
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 2,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 2900000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 4,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 2320000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 3,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1680000
+      }
+    ],
+    "total_cents": 8500000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0092",
+    "date": "2026-09-08T08:17:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 2,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 1240000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 4,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 3920000
+      }
+    ],
+    "total_cents": 7110000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0093",
+    "date": "2026-09-08T09:08:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      }
+    ],
+    "total_cents": 4230000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0094",
+    "date": "2026-09-08T10:43:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 2,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 1160000
+      },
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      }
+    ],
+    "total_cents": 3630000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0095",
+    "date": "2026-09-09T08:39:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      }
+    ],
+    "total_cents": 700000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0096",
+    "date": "2026-09-09T09:32:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      }
+    ],
+    "total_cents": 650000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0097",
+    "date": "2026-09-10T08:58:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 4,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 13000000
+      }
+    ],
+    "total_cents": 13000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0098",
+    "date": "2026-09-10T09:16:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 4,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 1000000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 2,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 360000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 4,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 2320000
+      }
+    ],
+    "total_cents": 3680000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0099",
+    "date": "2026-09-10T10:18:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 4,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1880000
+      }
+    ],
+    "total_cents": 1880000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0100",
+    "date": "2026-09-11T08:03:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 3,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2160000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 1,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 980000
+      }
+    ],
+    "total_cents": 3620000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0101",
+    "date": "2026-09-11T09:34:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 2,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 840000
+      }
+    ],
+    "total_cents": 840000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0102",
+    "date": "2026-09-12T08:32:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 4,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 3920000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      }
+    ],
+    "total_cents": 7590000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0103",
+    "date": "2026-09-12T09:12:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 2,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1040000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 4,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 2240000
+      }
+    ],
+    "total_cents": 4430000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0104",
+    "date": "2026-09-12T10:49:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 4,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1400000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 1,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 1320000
+      }
+    ],
+    "total_cents": 2720000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0105",
+    "date": "2026-09-13T08:28:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 2,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 2300000
+      }
+    ],
+    "total_cents": 2300000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0106",
+    "date": "2026-09-14T08:02:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 2,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 940000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 3,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 660000
+      },
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 1,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 920000
+      }
+    ],
+    "total_cents": 2970000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0107",
+    "date": "2026-09-14T09:58:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 4,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 4320000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 1,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 3250000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 1,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 1320000
+      }
+    ],
+    "total_cents": 9780000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0108",
+    "date": "2026-09-15T08:27:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 1,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 1580000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      }
+    ],
+    "total_cents": 3360000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0109",
+    "date": "2026-09-15T09:53:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 4,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1920000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 4,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 2240000
+      },
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      }
+    ],
+    "total_cents": 8690000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0110",
+    "date": "2026-09-15T10:09:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      }
+    ],
+    "total_cents": 390000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0111",
+    "date": "2026-09-16T08:12:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 2,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 2160000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 4,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 13000000
+      }
+    ],
+    "total_cents": 15160000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0112",
+    "date": "2026-09-16T09:58:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 2,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 940000
+      },
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 3,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 1860000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 4,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 3560000
+      }
+    ],
+    "total_cents": 10110000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0113",
+    "date": "2026-09-17T08:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 4,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 2720000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 4,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 2080000
+      }
+    ],
+    "total_cents": 7820000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0114",
+    "date": "2026-09-17T09:49:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      }
+    ],
+    "total_cents": 6140000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0115",
+    "date": "2026-09-17T10:38:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 3,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 2,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 1840000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 3,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 9750000
+      }
+    ],
+    "total_cents": 19540000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0116",
+    "date": "2026-09-17T11:37:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 1,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 560000
+      }
+    ],
+    "total_cents": 2900000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0117",
+    "date": "2026-09-18T08:38:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 4,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 3560000
+      },
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      }
+    ],
+    "total_cents": 4040000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0118",
+    "date": "2026-09-18T09:42:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 2,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1040000
+      },
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 2,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 1840000
+      }
+    ],
+    "total_cents": 2880000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0119",
+    "date": "2026-09-18T10:27:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 4,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 7560000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 1,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 350000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 2,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 960000
+      }
+    ],
+    "total_cents": 11000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0120",
+    "date": "2026-09-19T08:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      }
+    ],
+    "total_cents": 1780000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0121",
+    "date": "2026-09-19T09:03:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 2,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 3900000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 4,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 2080000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 1,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 350000
+      }
+    ],
+    "total_cents": 10080000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0122",
+    "date": "2026-09-19T10:07:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 4,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 2760000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      }
+    ],
+    "total_cents": 7020000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0123",
+    "date": "2026-09-19T11:32:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 4,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2880000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      }
+    ],
+    "total_cents": 8550000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0124",
+    "date": "2026-09-20T08:49:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 2,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 1440000
+      }
+    ],
+    "total_cents": 2740000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0125",
+    "date": "2026-09-20T09:58:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 1,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 690000
+      }
+    ],
+    "total_cents": 690000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0126",
+    "date": "2026-09-20T10:38:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 3,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 3450000
+      }
+    ],
+    "total_cents": 3450000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0127",
+    "date": "2026-09-20T11:47:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 1,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 620000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      }
+    ],
+    "total_cents": 2300000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0128",
+    "date": "2026-09-21T08:38:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 3,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 4,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 1000000
+      },
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 3,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 1860000
+      }
+    ],
+    "total_cents": 4540000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0129",
+    "date": "2026-09-21T09:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 2,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 2300000
+      }
+    ],
+    "total_cents": 2300000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0130",
+    "date": "2026-09-21T10:28:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      }
+    ],
+    "total_cents": 1250000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0131",
+    "date": "2026-09-21T11:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 2,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 960000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 4,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 880000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 2,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 6500000
+      }
+    ],
+    "total_cents": 10290000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0132",
+    "date": "2026-09-22T08:40:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 1,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 1280000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 4,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 3280000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      }
+    ],
+    "total_cents": 6000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0133",
+    "date": "2026-09-23T08:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      }
+    ],
+    "total_cents": 10970000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0134",
+    "date": "2026-09-24T08:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 4,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 7800000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 4,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 2240000
+      },
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 1,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 180000
+      }
+    ],
+    "total_cents": 12720000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0135",
+    "date": "2026-09-25T08:40:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      },
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      }
+    ],
+    "total_cents": 5550000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0136",
+    "date": "2026-09-25T09:41:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 1,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 380000
+      }
+    ],
+    "total_cents": 380000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0137",
+    "date": "2026-09-25T10:00:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 4,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 3280000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 1,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 350000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      }
+    ],
+    "total_cents": 9300000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0138",
+    "date": "2026-09-25T11:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 1,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 980000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      }
+    ],
+    "total_cents": 3580000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0139",
+    "date": "2026-09-26T08:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 4,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 2480000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 1,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 580000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 4,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2880000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 4,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 4600000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 4,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 2240000
+      }
+    ],
+    "total_cents": 12780000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0140",
+    "date": "2026-09-26T09:55:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 1,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 620000
+      }
+    ],
+    "total_cents": 620000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0141",
+    "date": "2026-09-26T10:20:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 1,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 1580000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 4,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 3560000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      }
+    ],
+    "total_cents": 7880000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0142",
+    "date": "2026-09-26T11:08:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 1,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 1280000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 2,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 1380000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 4,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 7800000
+      },
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 4,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 4320000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 1,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 560000
+      }
+    ],
+    "total_cents": 15340000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0143",
+    "date": "2026-09-27T08:02:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      }
+    ],
+    "total_cents": 5890000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0144",
+    "date": "2026-09-27T09:33:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 2,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 1160000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 2,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 1640000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 4,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 3120000
+      }
+    ],
+    "total_cents": 7660000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0145",
+    "date": "2026-09-28T08:09:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 1,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 220000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 4,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 4600000
+      },
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 3,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1560000
+      }
+    ],
+    "total_cents": 7550000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0146",
+    "date": "2026-09-28T09:28:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 1,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 580000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 1,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 1150000
+      }
+    ],
+    "total_cents": 7930000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0147",
+    "date": "2026-09-28T10:26:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 4,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 4320000
+      },
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 1,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 380000
+      }
+    ],
+    "total_cents": 4700000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0148",
+    "date": "2026-09-28T11:53:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      }
+    ],
+    "total_cents": 390000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0149",
+    "date": "2026-09-29T08:31:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 1,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 1150000
+      }
+    ],
+    "total_cents": 1930000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0150",
+    "date": "2026-09-29T09:12:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      }
+    ],
+    "total_cents": 3720000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0151",
+    "date": "2026-09-30T08:57:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 1,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 1150000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      }
+    ],
+    "total_cents": 7240000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0152",
+    "date": "2026-09-30T09:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 1,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 920000
+      }
+    ],
+    "total_cents": 920000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0153",
+    "date": "2026-09-30T10:21:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 1,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 520000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 4,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1920000
+      }
+    ],
+    "total_cents": 7870000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0154",
+    "date": "2026-10-01T08:58:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 1,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 980000
+      },
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      }
+    ],
+    "total_cents": 7220000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0155",
+    "date": "2026-10-01T09:22:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 1,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 920000
+      }
+    ],
+    "total_cents": 3520000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0156",
+    "date": "2026-10-01T10:26:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 3,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 540000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 1,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 3250000
+      }
+    ],
+    "total_cents": 3790000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0157",
+    "date": "2026-10-02T08:07:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 2,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 1160000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      }
+    ],
+    "total_cents": 3910000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0158",
+    "date": "2026-10-02T09:05:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 4,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 1520000
+      }
+    ],
+    "total_cents": 6050000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0159",
+    "date": "2026-10-03T08:43:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 2,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 360000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 1,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 1890000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      }
+    ],
+    "total_cents": 4700000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0160",
+    "date": "2026-10-03T09:47:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      },
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      }
+    ],
+    "total_cents": 3080000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0161",
+    "date": "2026-10-03T10:45:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 1,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 690000
+      },
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 4,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 7800000
+      },
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 1,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 380000
+      },
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 1,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 1080000
+      }
+    ],
+    "total_cents": 10370000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0162",
+    "date": "2026-10-03T11:31:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 2,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 1380000
+      },
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 1,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 1450000
+      }
+    ],
+    "total_cents": 3480000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0163",
+    "date": "2026-10-04T08:53:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 1,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 820000
+      }
+    ],
+    "total_cents": 820000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0164",
+    "date": "2026-10-04T09:02:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 1,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 220000
+      }
+    ],
+    "total_cents": 220000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0165",
+    "date": "2026-10-04T10:36:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 2,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 1380000
+      },
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 1,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 1580000
+      }
+    ],
+    "total_cents": 2960000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0166",
+    "date": "2026-10-04T11:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 2,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 3160000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 1,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 180000
+      },
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 3,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 4,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 2320000
+      }
+    ],
+    "total_cents": 9020000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0167",
+    "date": "2026-10-05T08:17:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      }
+    ],
+    "total_cents": 8760000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0168",
+    "date": "2026-10-06T08:39:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      }
+    ],
+    "total_cents": 5710000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0169",
+    "date": "2026-10-07T08:44:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-049",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 3,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 1740000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      },
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      }
+    ],
+    "total_cents": 8030000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0170",
+    "date": "2026-10-07T09:27:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 4,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2880000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      },
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 1,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 1,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 250000
+      }
+    ],
+    "total_cents": 7070000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0171",
+    "date": "2026-10-07T10:46:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 1,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 520000
+      }
+    ],
+    "total_cents": 940000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0172",
+    "date": "2026-10-08T08:33:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 1,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 3,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1410000
+      }
+    ],
+    "total_cents": 4460000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0173",
+    "date": "2026-10-08T09:30:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 2,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 6500000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 3,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 2070000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      }
+    ],
+    "total_cents": 14530000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0174",
+    "date": "2026-10-08T10:59:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      }
+    ],
+    "total_cents": 4140000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0175",
+    "date": "2026-10-08T11:43:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 1,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 1080000
+      }
+    ],
+    "total_cents": 1080000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0176",
+    "date": "2026-10-09T08:13:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 1,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 980000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 3,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 3960000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      }
+    ],
+    "total_cents": 10610000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0177",
+    "date": "2026-10-09T09:12:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-046",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 2,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 4,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1880000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 1,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 820000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 4,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 1000000
+      }
+    ],
+    "total_cents": 6400000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0178",
+    "date": "2026-10-09T10:51:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 2,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 1160000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 3,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 2940000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 3,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 660000
+      }
+    ],
+    "total_cents": 6230000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0179",
+    "date": "2026-10-10T08:52:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 2,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 1360000
+      }
+    ],
+    "total_cents": 1360000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0180",
+    "date": "2026-10-11T08:11:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 4,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1400000
+      }
+    ],
+    "total_cents": 1400000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0181",
+    "date": "2026-10-11T09:39:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 4,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 6320000
+      }
+    ],
+    "total_cents": 6320000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0182",
+    "date": "2026-10-12T08:58:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 1,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 350000
+      },
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 2,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 960000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 2,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 1380000
+      }
+    ],
+    "total_cents": 2690000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0183",
+    "date": "2026-10-13T08:43:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 2,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 3780000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 1,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 220000
+      },
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      }
+    ],
+    "total_cents": 6980000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0184",
+    "date": "2026-10-13T09:43:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 3,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 660000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      }
+    ],
+    "total_cents": 7260000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0185",
+    "date": "2026-10-13T10:10:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 1,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 3,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 4,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 7800000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 1,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 1320000
+      }
+    ],
+    "total_cents": 11970000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0186",
+    "date": "2026-10-13T11:54:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 4,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 1000000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 2,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 3,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 3450000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 4,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 2240000
+      }
+    ],
+    "total_cents": 13800000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0187",
+    "date": "2026-10-14T08:59:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 3,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 3840000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      }
+    ],
+    "total_cents": 6440000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0188",
+    "date": "2026-10-15T08:37:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 1,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 470000
+      },
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 4,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-033",
+        "quantity": 2,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 700000
+      }
+    ],
+    "total_cents": 2730000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0189",
+    "date": "2026-10-15T09:00:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 2,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 1240000
+      }
+    ],
+    "total_cents": 1240000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0190",
+    "date": "2026-10-15T10:31:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 1,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 1450000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      }
+    ],
+    "total_cents": 6450000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0191",
+    "date": "2026-10-15T11:39:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      }
+    ],
+    "total_cents": 2600000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0192",
+    "date": "2026-10-16T08:16:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 1,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-017",
+        "quantity": 3,
+        "unit_price_cents": 1450000,
+        "subtotal_cents": 4350000
+      }
+    ],
+    "total_cents": 5070000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0193",
+    "date": "2026-10-16T09:06:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 2,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1300000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 3,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 2670000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 1,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 1890000
+      }
+    ],
+    "total_cents": 6360000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0194",
+    "date": "2026-10-17T08:22:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 3,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 2760000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      }
+    ],
+    "total_cents": 3810000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0195",
+    "date": "2026-10-17T09:14:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 4,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 1520000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 1,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 980000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 1,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 450000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 2,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 360000
+      }
+    ],
+    "total_cents": 5770000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0196",
+    "date": "2026-10-17T10:39:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      }
+    ],
+    "total_cents": 7550000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0197",
+    "date": "2026-10-17T11:59:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 4,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 13000000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      }
+    ],
+    "total_cents": 13750000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0198",
+    "date": "2026-10-18T08:44:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 2,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 1360000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 1,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 1320000
+      },
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      }
+    ],
+    "total_cents": 11300000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0199",
+    "date": "2026-10-18T09:16:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 3,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 1140000
+      },
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 1,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 820000
+      }
+    ],
+    "total_cents": 6510000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0200",
+    "date": "2026-10-19T08:17:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-038",
+        "quantity": 1,
+        "unit_price_cents": 780000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 1,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 1580000
+      },
+      {
+        "product_code": "NEXO-TRIM-032",
+        "quantity": 2,
+        "unit_price_cents": 1950000,
+        "subtotal_cents": 3900000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 2,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 6500000
+      }
+    ],
+    "total_cents": 13240000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0201",
+    "date": "2026-10-19T09:50:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 2,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 2500000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 3,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 660000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      }
+    ],
+    "total_cents": 3910000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0202",
+    "date": "2026-10-19T10:34:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      },
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 4,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 4,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 2240000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 4,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 13000000
+      }
+    ],
+    "total_cents": 21800000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0203",
+    "date": "2026-10-20T08:34:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 2,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 960000
+      }
+    ],
+    "total_cents": 4710000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0204",
+    "date": "2026-10-20T09:17:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 3,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 2940000
+      },
+      {
+        "product_code": "NEXO-TRIM-010",
+        "quantity": 2,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 1780000
+      },
+      {
+        "product_code": "NEXO-TRIM-008",
+        "quantity": 3,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1350000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      }
+    ],
+    "total_cents": 8020000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0205",
+    "date": "2026-10-21T08:32:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 3,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 1950000
+      },
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-006",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 2,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 1380000
+      }
+    ],
+    "total_cents": 6180000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0206",
+    "date": "2026-10-22T08:36:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 3,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1050000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 4,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 880000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 2,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 1960000
+      },
+      {
+        "product_code": "NEXO-TRIM-016",
+        "quantity": 3,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 1560000
+      },
+      {
+        "product_code": "NEXO-TRIM-041",
+        "quantity": 2,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 960000
+      }
+    ],
+    "total_cents": 6410000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0207",
+    "date": "2026-10-22T09:54:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 4,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2880000
+      }
+    ],
+    "total_cents": 2880000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0208",
+    "date": "2026-10-23T08:45:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 3,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 3960000
+      },
+      {
+        "product_code": "NEXO-TRIM-034",
+        "quantity": 1,
+        "unit_price_cents": 890000,
+        "subtotal_cents": 890000
+      }
+    ],
+    "total_cents": 4850000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0209",
+    "date": "2026-10-23T09:05:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 4,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      }
+    ],
+    "total_cents": 6680000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0210",
+    "date": "2026-10-23T10:31:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      }
+    ],
+    "total_cents": 390000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0211",
+    "date": "2026-10-24T08:00:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-018",
+        "quantity": 4,
+        "unit_price_cents": 980000,
+        "subtotal_cents": 3920000
+      },
+      {
+        "product_code": "NEXO-TRIM-013",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      }
+    ],
+    "total_cents": 14670000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0212",
+    "date": "2026-10-24T09:43:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 4,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 5280000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 3,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 5670000
+      }
+    ],
+    "total_cents": 10950000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0213",
+    "date": "2026-10-25T08:29:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-026",
+        "quantity": 1,
+        "unit_price_cents": 1080000,
+        "subtotal_cents": 1080000
+      }
+    ],
+    "total_cents": 1080000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0214",
+    "date": "2026-10-25T09:37:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-048",
+        "quantity": 2,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 900000
+      },
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 1,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 1280000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 3,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 2460000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 2,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 360000
+      }
+    ],
+    "total_cents": 5000000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0215",
+    "date": "2026-10-26T08:03:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      }
+    ],
+    "total_cents": 1280000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0216",
+    "date": "2026-10-26T09:24:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      },
+      {
+        "product_code": "NEXO-TRIM-036",
+        "quantity": 4,
+        "unit_price_cents": 1580000,
+        "subtotal_cents": 6320000
+      },
+      {
+        "product_code": "NEXO-TRIM-021",
+        "quantity": 3,
+        "unit_price_cents": 1320000,
+        "subtotal_cents": 3960000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 3,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 750000
+      }
+    ],
+    "total_cents": 11420000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0217",
+    "date": "2026-10-26T10:42:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      },
+      {
+        "product_code": "NEXO-TRIM-001",
+        "quantity": 3,
+        "unit_price_cents": 580000,
+        "subtotal_cents": 1740000
+      },
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      }
+    ],
+    "total_cents": 5910000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0218",
+    "date": "2026-10-27T08:02:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-050",
+        "quantity": 4,
+        "unit_price_cents": 1280000,
+        "subtotal_cents": 5120000
+      },
+      {
+        "product_code": "NEXO-TRIM-042",
+        "quantity": 4,
+        "unit_price_cents": 520000,
+        "subtotal_cents": 2080000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 1,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 720000
+      },
+      {
+        "product_code": "NEXO-TRIM-039",
+        "quantity": 1,
+        "unit_price_cents": 3250000,
+        "subtotal_cents": 3250000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      }
+    ],
+    "total_cents": 14920000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0219",
+    "date": "2026-10-27T09:48:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-020",
+        "quantity": 1,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 1250000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      },
+      {
+        "product_code": "NEXO-TRIM-007",
+        "quantity": 1,
+        "unit_price_cents": 620000,
+        "subtotal_cents": 620000
+      },
+      {
+        "product_code": "NEXO-TRIM-005",
+        "quantity": 4,
+        "unit_price_cents": 180000,
+        "subtotal_cents": 720000
+      }
+    ],
+    "total_cents": 3010000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0220",
+    "date": "2026-10-27T10:49:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-029",
+        "quantity": 2,
+        "unit_price_cents": 680000,
+        "subtotal_cents": 1360000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 2,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1120000
+      },
+      {
+        "product_code": "NEXO-TRIM-045",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      }
+    ],
+    "total_cents": 5080000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0221",
+    "date": "2026-10-27T11:11:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 3,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 1440000
+      }
+    ],
+    "total_cents": 1440000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0222",
+    "date": "2026-10-28T08:53:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 3,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 1140000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 3,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 660000
+      },
+      {
+        "product_code": "NEXO-TRIM-047",
+        "quantity": 4,
+        "unit_price_cents": 350000,
+        "subtotal_cents": 1400000
+      },
+      {
+        "product_code": "NEXO-TRIM-011",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      }
+    ],
+    "total_cents": 3700000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0223",
+    "date": "2026-10-28T09:01:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 3,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-044",
+        "quantity": 2,
+        "unit_price_cents": 250000,
+        "subtotal_cents": 500000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 4,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 2880000
+      },
+      {
+        "product_code": "NEXO-TRIM-014",
+        "quantity": 4,
+        "unit_price_cents": 690000,
+        "subtotal_cents": 2760000
+      }
+    ],
+    "total_cents": 8600000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0224",
+    "date": "2026-10-29T08:23:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-022",
+        "quantity": 1,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 390000
+      },
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 4,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 7560000
+      },
+      {
+        "product_code": "NEXO-TRIM-024",
+        "quantity": 2,
+        "unit_price_cents": 720000,
+        "subtotal_cents": 1440000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 3,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 1170000
+      }
+    ],
+    "total_cents": 10560000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0225",
+    "date": "2026-10-30T08:35:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-031",
+        "quantity": 2,
+        "unit_price_cents": 1890000,
+        "subtotal_cents": 3780000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 1,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 420000
+      },
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 4,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 3680000
+      },
+      {
+        "product_code": "NEXO-TRIM-025",
+        "quantity": 4,
+        "unit_price_cents": 450000,
+        "subtotal_cents": 1800000
+      }
+    ],
+    "total_cents": 9680000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0226",
+    "date": "2026-10-30T09:30:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-002",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 1,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 820000
+      },
+      {
+        "product_code": "NEXO-TRIM-012",
+        "quantity": 3,
+        "unit_price_cents": 420000,
+        "subtotal_cents": 1260000
+      },
+      {
+        "product_code": "NEXO-TRIM-030",
+        "quantity": 1,
+        "unit_price_cents": 1150000,
+        "subtotal_cents": 1150000
+      }
+    ],
+    "total_cents": 4490000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0227",
+    "date": "2026-10-31T08:52:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-035",
+        "quantity": 1,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 650000
+      }
+    ],
+    "total_cents": 650000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0228",
+    "date": "2026-10-31T09:11:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 4,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 3680000
+      }
+    ],
+    "total_cents": 3680000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0229",
+    "date": "2026-10-31T10:28:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 3,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 1410000
+      }
+    ],
+    "total_cents": 1410000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0230",
+    "date": "2026-10-31T11:01:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-015",
+        "quantity": 2,
+        "unit_price_cents": 380000,
+        "subtotal_cents": 760000
+      },
+      {
+        "product_code": "NEXO-TRIM-003",
+        "quantity": 3,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 3750000
+      },
+      {
+        "product_code": "NEXO-TRIM-028",
+        "quantity": 4,
+        "unit_price_cents": 220000,
+        "subtotal_cents": 880000
+      },
+      {
+        "product_code": "NEXO-TRIM-043",
+        "quantity": 2,
+        "unit_price_cents": 390000,
+        "subtotal_cents": 780000
+      }
+    ],
+    "total_cents": 6170000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0231",
+    "date": "2026-11-01T08:51:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-037",
+        "quantity": 1,
+        "unit_price_cents": 920000,
+        "subtotal_cents": 920000
+      },
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 4,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 2240000
+      },
+      {
+        "product_code": "NEXO-TRIM-040",
+        "quantity": 4,
+        "unit_price_cents": 1250000,
+        "subtotal_cents": 5000000
+      }
+    ],
+    "total_cents": 8160000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0232",
+    "date": "2026-11-01T09:36:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-004",
+        "quantity": 1,
+        "unit_price_cents": 480000,
+        "subtotal_cents": 480000
+      },
+      {
+        "product_code": "NEXO-TRIM-027",
+        "quantity": 1,
+        "unit_price_cents": 820000,
+        "subtotal_cents": 820000
+      }
+    ],
+    "total_cents": 1300000
+  },
+  {
+    "reference": "NEXO-TRIM-VENTA-0233",
+    "date": "2026-11-01T10:21:00-05:00",
+    "items": [
+      {
+        "product_code": "NEXO-TRIM-009",
+        "quantity": 3,
+        "unit_price_cents": 560000,
+        "subtotal_cents": 1680000
+      },
+      {
+        "product_code": "NEXO-TRIM-023",
+        "quantity": 4,
+        "unit_price_cents": 650000,
+        "subtotal_cents": 2600000
+      },
+      {
+        "product_code": "NEXO-TRIM-019",
+        "quantity": 2,
+        "unit_price_cents": 470000,
+        "subtotal_cents": 940000
+      }
+    ],
+    "total_cents": 5220000
+  }
+]

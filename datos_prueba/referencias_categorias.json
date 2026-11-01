@@ -1,0 +1,22 @@
+[
+  {
+    "reference_id": 1,
+    "name": "Abarrotes"
+  },
+  {
+    "reference_id": 2,
+    "name": "Bebidas"
+  },
+  {
+    "reference_id": 3,
+    "name": "Aseo del hogar"
+  },
+  {
+    "reference_id": 4,
+    "name": "Cuidado personal"
+  },
+  {
+    "reference_id": 5,
+    "name": "Snacks"
+  }
+]

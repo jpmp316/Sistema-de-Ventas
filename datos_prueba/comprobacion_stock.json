@@ -1,0 +1,352 @@
+[
+  {
+    "code": "NEXO-TRIM-001",
+    "initial_stock": 39,
+    "units_sold": 39,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-002",
+    "initial_stock": 31,
+    "units_sold": 31,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-003",
+    "initial_stock": 43,
+    "units_sold": 43,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-004",
+    "initial_stock": 26,
+    "units_sold": 26,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-005",
+    "initial_stock": 61,
+    "units_sold": 61,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-006",
+    "initial_stock": 23,
+    "units_sold": 23,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-007",
+    "initial_stock": 39,
+    "units_sold": 39,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-008",
+    "initial_stock": 36,
+    "units_sold": 36,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-009",
+    "initial_stock": 53,
+    "units_sold": 53,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-010",
+    "initial_stock": 25,
+    "units_sold": 25,
+    "expected_final_stock": 0,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-011",
+    "initial_stock": 41,
+    "units_sold": 38,
+    "expected_final_stock": 3,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-012",
+    "initial_stock": 35,
+    "units_sold": 31,
+    "expected_final_stock": 4,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-013",
+    "initial_stock": 39,
+    "units_sold": 38,
+    "expected_final_stock": 1,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-014",
+    "initial_stock": 42,
+    "units_sold": 39,
+    "expected_final_stock": 3,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-015",
+    "initial_stock": 35,
+    "units_sold": 31,
+    "expected_final_stock": 4,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-016",
+    "initial_stock": 27,
+    "units_sold": 26,
+    "expected_final_stock": 1,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-017",
+    "initial_stock": 25,
+    "units_sold": 24,
+    "expected_final_stock": 1,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-018",
+    "initial_stock": 31,
+    "units_sold": 30,
+    "expected_final_stock": 1,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-019",
+    "initial_stock": 41,
+    "units_sold": 40,
+    "expected_final_stock": 1,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-020",
+    "initial_stock": 50,
+    "units_sold": 48,
+    "expected_final_stock": 2,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-021",
+    "initial_stock": 34,
+    "units_sold": 26,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-022",
+    "initial_stock": 38,
+    "units_sold": 30,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-023",
+    "initial_stock": 37,
+    "units_sold": 29,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-024",
+    "initial_stock": 58,
+    "units_sold": 50,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-025",
+    "initial_stock": 37,
+    "units_sold": 29,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-026",
+    "initial_stock": 39,
+    "units_sold": 31,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-027",
+    "initial_stock": 51,
+    "units_sold": 43,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-028",
+    "initial_stock": 50,
+    "units_sold": 42,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-029",
+    "initial_stock": 33,
+    "units_sold": 25,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-030",
+    "initial_stock": 38,
+    "units_sold": 30,
+    "expected_final_stock": 8,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-031",
+    "initial_stock": 95,
+    "units_sold": 48,
+    "expected_final_stock": 47,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-032",
+    "initial_stock": 85,
+    "units_sold": 44,
+    "expected_final_stock": 41,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-033",
+    "initial_stock": 66,
+    "units_sold": 24,
+    "expected_final_stock": 42,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-034",
+    "initial_stock": 73,
+    "units_sold": 40,
+    "expected_final_stock": 33,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-035",
+    "initial_stock": 64,
+    "units_sold": 15,
+    "expected_final_stock": 49,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-036",
+    "initial_stock": 71,
+    "units_sold": 22,
+    "expected_final_stock": 49,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-037",
+    "initial_stock": 82,
+    "units_sold": 26,
+    "expected_final_stock": 56,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-038",
+    "initial_stock": 56,
+    "units_sold": 20,
+    "expected_final_stock": 36,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-039",
+    "initial_stock": 110,
+    "units_sold": 52,
+    "expected_final_stock": 58,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-040",
+    "initial_stock": 72,
+    "units_sold": 34,
+    "expected_final_stock": 38,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-041",
+    "initial_stock": 167,
+    "units_sold": 23,
+    "expected_final_stock": 144,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-042",
+    "initial_stock": 178,
+    "units_sold": 39,
+    "expected_final_stock": 139,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-043",
+    "initial_stock": 154,
+    "units_sold": 32,
+    "expected_final_stock": 122,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-044",
+    "initial_stock": 212,
+    "units_sold": 38,
+    "expected_final_stock": 174,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-045",
+    "initial_stock": 156,
+    "units_sold": 36,
+    "expected_final_stock": 120,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-046",
+    "initial_stock": 159,
+    "units_sold": 19,
+    "expected_final_stock": 140,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-047",
+    "initial_stock": 168,
+    "units_sold": 46,
+    "expected_final_stock": 122,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-048",
+    "initial_stock": 212,
+    "units_sold": 39,
+    "expected_final_stock": 173,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-049",
+    "initial_stock": 133,
+    "units_sold": 23,
+    "expected_final_stock": 110,
+    "min_stock": 8
+  },
+  {
+    "code": "NEXO-TRIM-050",
+    "initial_stock": 152,
+    "units_sold": 23,
+    "expected_final_stock": 129,
+    "min_stock": 8
+  }
+]

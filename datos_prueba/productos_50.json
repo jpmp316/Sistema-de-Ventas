@@ -1,0 +1,452 @@
+[
+  {
+    "code": "NEXO-TRIM-001",
+    "name": "Arroz 1 kg",
+    "description": "Producto de prueba: Arroz 1 kg.",
+    "price_cents": 580000,
+    "stock": 39,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-002",
+    "name": "Pasta 500 g",
+    "description": "Producto de prueba: Pasta 500 g.",
+    "price_cents": 420000,
+    "stock": 31,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-003",
+    "name": "Aceite vegetal 1 L",
+    "description": "Producto de prueba: Aceite vegetal 1 L.",
+    "price_cents": 1250000,
+    "stock": 43,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-004",
+    "name": "Azúcar 1 kg",
+    "description": "Producto de prueba: Azúcar 1 kg.",
+    "price_cents": 480000,
+    "stock": 26,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-005",
+    "name": "Sal 500 g",
+    "description": "Producto de prueba: Sal 500 g.",
+    "price_cents": 180000,
+    "stock": 61,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-006",
+    "name": "Lentejas 500 g",
+    "description": "Producto de prueba: Lentejas 500 g.",
+    "price_cents": 390000,
+    "stock": 23,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-007",
+    "name": "Frijol 500 g",
+    "description": "Producto de prueba: Frijol 500 g.",
+    "price_cents": 620000,
+    "stock": 39,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-008",
+    "name": "Harina de trigo 1 kg",
+    "description": "Producto de prueba: Harina de trigo 1 kg.",
+    "price_cents": 450000,
+    "stock": 36,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-009",
+    "name": "Avena 500 g",
+    "description": "Producto de prueba: Avena 500 g.",
+    "price_cents": 560000,
+    "stock": 53,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-010",
+    "name": "Atún en lata 160 g",
+    "description": "Producto de prueba: Atún en lata 160 g.",
+    "price_cents": 890000,
+    "stock": 25,
+    "min_stock": 8,
+    "category_id": 1
+  },
+  {
+    "code": "NEXO-TRIM-011",
+    "name": "Agua 600 ml",
+    "description": "Producto de prueba: Agua 600 ml.",
+    "price_cents": 250000,
+    "stock": 41,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-012",
+    "name": "Agua 1.5 L",
+    "description": "Producto de prueba: Agua 1.5 L.",
+    "price_cents": 420000,
+    "stock": 35,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-013",
+    "name": "Gaseosa cola 1.5 L",
+    "description": "Producto de prueba: Gaseosa cola 1.5 L.",
+    "price_cents": 650000,
+    "stock": 39,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-014",
+    "name": "Jugo de naranja 1 L",
+    "description": "Producto de prueba: Jugo de naranja 1 L.",
+    "price_cents": 690000,
+    "stock": 42,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-015",
+    "name": "Té frío 500 ml",
+    "description": "Producto de prueba: Té frío 500 ml.",
+    "price_cents": 380000,
+    "stock": 35,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-016",
+    "name": "Bebida isotónica 500 ml",
+    "description": "Producto de prueba: Bebida isotónica 500 ml.",
+    "price_cents": 520000,
+    "stock": 27,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-017",
+    "name": "Café molido 250 g",
+    "description": "Producto de prueba: Café molido 250 g.",
+    "price_cents": 1450000,
+    "stock": 25,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-018",
+    "name": "Chocolate de mesa 250 g",
+    "description": "Producto de prueba: Chocolate de mesa 250 g.",
+    "price_cents": 980000,
+    "stock": 31,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-019",
+    "name": "Leche entera 1 L",
+    "description": "Producto de prueba: Leche entera 1 L.",
+    "price_cents": 470000,
+    "stock": 41,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-020",
+    "name": "Bebida de avena 1 L",
+    "description": "Producto de prueba: Bebida de avena 1 L.",
+    "price_cents": 1250000,
+    "stock": 50,
+    "min_stock": 8,
+    "category_id": 2
+  },
+  {
+    "code": "NEXO-TRIM-021",
+    "name": "Detergente en polvo 1 kg",
+    "description": "Producto de prueba: Detergente en polvo 1 kg.",
+    "price_cents": 1320000,
+    "stock": 34,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-022",
+    "name": "Jabón de ropa 300 g",
+    "description": "Producto de prueba: Jabón de ropa 300 g.",
+    "price_cents": 390000,
+    "stock": 38,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-023",
+    "name": "Lavaloza 500 ml",
+    "description": "Producto de prueba: Lavaloza 500 ml.",
+    "price_cents": 650000,
+    "stock": 37,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-024",
+    "name": "Desinfectante 1 L",
+    "description": "Producto de prueba: Desinfectante 1 L.",
+    "price_cents": 720000,
+    "stock": 58,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-025",
+    "name": "Blanqueador 1 L",
+    "description": "Producto de prueba: Blanqueador 1 L.",
+    "price_cents": 450000,
+    "stock": 37,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-026",
+    "name": "Suavizante 1 L",
+    "description": "Producto de prueba: Suavizante 1 L.",
+    "price_cents": 1080000,
+    "stock": 39,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-027",
+    "name": "Limpiavidrios 500 ml",
+    "description": "Producto de prueba: Limpiavidrios 500 ml.",
+    "price_cents": 820000,
+    "stock": 51,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-028",
+    "name": "Esponja multiuso",
+    "description": "Producto de prueba: Esponja multiuso.",
+    "price_cents": 220000,
+    "stock": 50,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-029",
+    "name": "Bolsas de basura paquete",
+    "description": "Producto de prueba: Bolsas de basura paquete.",
+    "price_cents": 680000,
+    "stock": 33,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-030",
+    "name": "Papel higiénico 4 rollos",
+    "description": "Producto de prueba: Papel higiénico 4 rollos.",
+    "price_cents": 1150000,
+    "stock": 38,
+    "min_stock": 8,
+    "category_id": 3
+  },
+  {
+    "code": "NEXO-TRIM-031",
+    "name": "Champú 400 ml",
+    "description": "Producto de prueba: Champú 400 ml.",
+    "price_cents": 1890000,
+    "stock": 95,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-032",
+    "name": "Acondicionador 400 ml",
+    "description": "Producto de prueba: Acondicionador 400 ml.",
+    "price_cents": 1950000,
+    "stock": 85,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-033",
+    "name": "Jabón corporal 125 g",
+    "description": "Producto de prueba: Jabón corporal 125 g.",
+    "price_cents": 350000,
+    "stock": 66,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-034",
+    "name": "Crema dental 100 ml",
+    "description": "Producto de prueba: Crema dental 100 ml.",
+    "price_cents": 890000,
+    "stock": 73,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-035",
+    "name": "Cepillo dental",
+    "description": "Producto de prueba: Cepillo dental.",
+    "price_cents": 650000,
+    "stock": 64,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-036",
+    "name": "Desodorante 150 ml",
+    "description": "Producto de prueba: Desodorante 150 ml.",
+    "price_cents": 1580000,
+    "stock": 71,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-037",
+    "name": "Toallas higiénicas paquete",
+    "description": "Producto de prueba: Toallas higiénicas paquete.",
+    "price_cents": 920000,
+    "stock": 82,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-038",
+    "name": "Gel antibacterial 250 ml",
+    "description": "Producto de prueba: Gel antibacterial 250 ml.",
+    "price_cents": 780000,
+    "stock": 56,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-039",
+    "name": "Protector solar 120 ml",
+    "description": "Producto de prueba: Protector solar 120 ml.",
+    "price_cents": 3250000,
+    "stock": 110,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-040",
+    "name": "Crema de manos 100 ml",
+    "description": "Producto de prueba: Crema de manos 100 ml.",
+    "price_cents": 1250000,
+    "stock": 72,
+    "min_stock": 8,
+    "category_id": 4
+  },
+  {
+    "code": "NEXO-TRIM-041",
+    "name": "Galletas de chocolate 150 g",
+    "description": "Producto de prueba: Galletas de chocolate 150 g.",
+    "price_cents": 480000,
+    "stock": 167,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-042",
+    "name": "Papas fritas 100 g",
+    "description": "Producto de prueba: Papas fritas 100 g.",
+    "price_cents": 520000,
+    "stock": 178,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-043",
+    "name": "Maní salado 100 g",
+    "description": "Producto de prueba: Maní salado 100 g.",
+    "price_cents": 390000,
+    "stock": 154,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-044",
+    "name": "Barra de cereal",
+    "description": "Producto de prueba: Barra de cereal.",
+    "price_cents": 250000,
+    "stock": 212,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-045",
+    "name": "Chocolate 80 g",
+    "description": "Producto de prueba: Chocolate 80 g.",
+    "price_cents": 650000,
+    "stock": 156,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-046",
+    "name": "Gomitas 100 g",
+    "description": "Producto de prueba: Gomitas 100 g.",
+    "price_cents": 420000,
+    "stock": 159,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-047",
+    "name": "Palomitas 90 g",
+    "description": "Producto de prueba: Palomitas 90 g.",
+    "price_cents": 350000,
+    "stock": 168,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-048",
+    "name": "Galletas saladas 200 g",
+    "description": "Producto de prueba: Galletas saladas 200 g.",
+    "price_cents": 450000,
+    "stock": 212,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-049",
+    "name": "Platanitos 100 g",
+    "description": "Producto de prueba: Platanitos 100 g.",
+    "price_cents": 480000,
+    "stock": 133,
+    "min_stock": 8,
+    "category_id": 5
+  },
+  {
+    "code": "NEXO-TRIM-050",
+    "name": "Mezcla de frutos secos 150 g",
+    "description": "Producto de prueba: Mezcla de frutos secos 150 g.",
+    "price_cents": 1280000,
+    "stock": 152,
+    "min_stock": 8,
+    "category_id": 5
+  }
+]
