@@ -41,6 +41,10 @@ export async function apiRequest(path, { token, ...options } = {}) {
 export const logoutUser = (token) => apiRequest("/auth/logout", { method: "POST", token });
 
 const jsonBody = (data) => JSON.stringify(data);
+export const getUsers = (token, page = 1) => apiRequest(`/users/paginated?page=${page}&page_size=10`, { token });
+export const createSeller = (token, data) => apiRequest("/users/", { method: "POST", token, body: jsonBody(data) });
+export const updateUser = (token, id, data) => apiRequest(`/users/${id}`, { method: "PUT", token, body: jsonBody(data) });
+export const deleteUser = (token, id) => apiRequest(`/users/${id}`, { method: "DELETE", token });
 export const changePassword = (token, currentPassword, newPassword) => apiRequest("/auth/change-password", {
   method: "POST", token, body: jsonBody({ current_password: currentPassword, new_password: newPassword }),
 });

@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 from fastapi import APIRouter, Depends, HTTPException, Response, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer, OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import IntegrityError
 
 from auth.auth_handler import ACCESS_TOKEN_EXPIRE_MINUTES, crear_token, verificar_token
 from auth.auth_service import hashear_password, verificar_password
@@ -11,6 +12,7 @@ from core.database import get_db
 from models.user import User
 from models.role import Role
 from models.revoked_token import RevokedToken
+from models.sales import Sale, InventoryMovement
 from schemas.user_schemas import (
     PaginatedUsers,
     PasswordChange,
@@ -268,7 +270,18 @@ def delete_user(
 ):
     user = get_user_or_404(db, user_id)
 
+    if user.id == _current_user.id:
+        raise HTTPException(status_code=403, detail="No puedes eliminar tu propia cuenta")
+
+    if (db.query(Sale.id).filter(Sale.user_id == user.id).first()
+            or db.query(InventoryMovement.id).filter(InventoryMovement.user_id == user.id).first()):
+        raise HTTPException(status_code=409, detail="No se puede eliminar un usuario con ventas o movimientos de inventario registrados")
+
     db.delete(user)
-    db.commit()
+    try:
+        db.commit()
+    except IntegrityError as exc:
+        db.rollback()
+        raise HTTPException(status_code=409, detail="El usuario tiene registros asociados y no puede eliminarse") from exc
 
     return Response(status_code=status.HTTP_204_NO_CONTENT)
