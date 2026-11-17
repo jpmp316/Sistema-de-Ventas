@@ -1,4 +1,3 @@
-
 function StatCard({
   title,
   value,
@@ -8,7 +7,7 @@ function StatCard({
   alert = false,
 }) {
   return (
-    <article className="stat-card">
+    <article className={`stat-card stat-card-${color}`}>
       <div className={`stat-icon ${color}`}>
         <Icon size={22} strokeWidth={1.8} />
       </div>

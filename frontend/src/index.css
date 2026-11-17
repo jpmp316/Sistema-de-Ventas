@@ -1,10 +1,24 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 :root {
-  font-family: "Inter", sans-serif;
-  color: #17263f;
-  background: #f5f7fb;
+  --canvas: #f6f7f2;
+  --surface: #ffffff;
+  --ink: #243b30;
+  --muted: #6c7970;
+  --nav: #193b2e;
+  --accent: #326c4b;
+  --accent-dark: #245238;
+  --accent-soft: #edf4e9;
+  --lime: #d5edb0;
+  --border: #e3e8de;
+  --border-strong: #d4ddcf;
+  --danger: #b14b3a;
+  --danger-soft: #fdf2ee;
+  --shadow: 0 2px 3px #243b3003;
+  --shadow-float: 0 12px 32px #193b2e18;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--canvas);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +36,9 @@ body {
 }
 
 button,
-input {
+input,
+select,
+textarea {
   font: inherit;
 }
 
@@ -37,13 +53,23 @@ a {
 
 button:focus-visible,
 input:focus-visible,
+select:focus-visible,
 a:focus-visible {
-  outline: 3px solid #55cbbb;
+  outline: 3px solid #86ad69;
   outline-offset: 3px;
 }
 
 ::selection {
-  background: #b8f3e9;
-  color: #123b45;
+  background: #d5edb0;
+  color: #193b2e;
 }
 
+input::placeholder {
+  color: #7d897f;
+  opacity: 1;
+}
+input:disabled,
+select:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
