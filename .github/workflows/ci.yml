@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   backend:
@@ -67,3 +67,59 @@ jobs:
         run: npm run test:coverage
       - name: Build frontend
         run: npm run build
+
+  deploy-render:
+    name: Deploy Render
+    needs: [backend, frontend]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: production
+    env:
+      RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+      RENDER_SERVICE_ID: ${{ secrets.RENDER_SERVICE_ID }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Deploy tested commit and wait for Render
+        run: python .github/scripts/deploy_render.py
+
+  deploy-vercel:
+    name: Deploy Vercel
+    needs: [backend, frontend]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: production
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+      - name: Validate deployment settings
+        run: |
+          for setting in VERCEL_TOKEN VERCEL_ORG_ID VERCEL_PROJECT_ID; do
+            if [ -z "${!setting}" ]; then
+              echo "::error::Missing secret $setting in the production environment"
+              exit 1
+            fi
+          done
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+      # Run from repository root; Vercel applies its configured frontend Root Directory.
+      - name: Pull production project settings
+        run: vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+      - name: Build production frontend
+        run: vercel build --prod --token="$VERCEL_TOKEN"
+      - name: Deploy and wait for production frontend
+        run: vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN"
