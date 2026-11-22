@@ -23,8 +23,6 @@ def test_crear_producto(authenticated_client):
     assert data["price_cents"] == 1999
     assert data["stock"] == 10
 
-    authenticated_client.delete(f"/products/{data['id']}")
-
 
 def test_listar_productos_requiere_autenticacion(client):
     response = client.get("/products/")
@@ -61,8 +59,6 @@ def test_listar_productos(authenticated_client):
     assert "total" in data
     assert any(item["id"] == product_id for item in data["items"])
 
-    authenticated_client.delete(f"/products/{product_id}")
-
 
 def test_actualizar_producto(authenticated_client):
     create_response = authenticated_client.post(
@@ -97,8 +93,6 @@ def test_actualizar_producto(authenticated_client):
     assert data["name"] == "Producto actualizado"
     assert data["price_cents"] == 1500
     assert data["stock"] == 8
-
-    authenticated_client.delete(f"/products/{product_id}")
 
 
 def test_vaciar_descripcion_producto(authenticated_client):

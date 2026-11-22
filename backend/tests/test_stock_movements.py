@@ -5,17 +5,8 @@ from sqlalchemy.exc import SQLAlchemyError
 from models.sales import InventoryMovement
 
 
-def create_product(client, stock=10, code="MOVEMENT-001"):
-    response = client.post("/products/", json={
-        "name": f"Producto {code}", "code": code, "category_id": 1,
-        "price_cents": 1000, "stock": stock, "min_stock": 0,
-    })
-    assert response.status_code == 201, response.text
-    return response.json()
-
-
-def test_initial_stock_creates_entry_with_responsible(authenticated_client, user_data):
-    product = create_product(authenticated_client)
+def test_initial_stock_creates_entry_with_responsible(authenticated_client, user_data, product_factory):
+    product = product_factory(stock=10)
     response = authenticated_client.get("/inventory/movements?type=entry")
     assert response.status_code == 200
     movement, = response.json()["items"]
@@ -27,14 +18,14 @@ def test_initial_stock_creates_entry_with_responsible(authenticated_client, user
     assert movement["date"]
 
 
-def test_zero_initial_stock_does_not_create_movement(authenticated_client):
-    create_product(authenticated_client, stock=0)
+def test_zero_initial_stock_does_not_create_movement(authenticated_client, product_factory):
+    product_factory(stock=0)
     assert authenticated_client.get("/inventory/movements").json()["total"] == 0
 
 
 @pytest.mark.parametrize("new_stock", [15, 4, 0])
-def test_manual_change_is_an_adjustment_and_updates_reports(authenticated_client, user_data, new_stock):
-    product = create_product(authenticated_client)
+def test_manual_change_is_an_adjustment_and_updates_reports(authenticated_client, user_data, new_stock, product_factory):
+    product = product_factory(stock=10)
     response = authenticated_client.put(f"/products/{product['id']}", json={"stock": new_stock})
     assert response.status_code == 200
     assert response.json()["stock"] == new_stock
@@ -52,24 +43,24 @@ def test_manual_change_is_an_adjustment_and_updates_reports(authenticated_client
     assert summary["inventory_by_day"][0]["adjustments"] == abs(new_stock - 10)
 
 
-def test_unchanged_stock_other_fields_and_activation_create_no_adjustments(authenticated_client):
-    product = create_product(authenticated_client)
+def test_unchanged_stock_other_fields_and_activation_create_no_adjustments(authenticated_client, product_factory):
+    product = product_factory(stock=10)
     for changes in ({"stock": 10}, {"price_cents": 2000}, {"is_active": False}, {"is_active": True}):
         assert authenticated_client.put(f"/products/{product['id']}", json=changes).status_code == 200
     assert authenticated_client.get("/inventory/movements").json()["total"] == 1
 
 
-def test_invalid_change_does_not_modify_stock_or_history(authenticated_client):
-    product = create_product(authenticated_client)
-    other = create_product(authenticated_client, code="OTHER")
+def test_invalid_change_does_not_modify_stock_or_history(authenticated_client, product_factory):
+    product = product_factory(stock=10)
+    other = product_factory(code="OTHER")
     for changes, status in (({"stock": -1}, 422), ({"stock": 20, "code": other["code"]}, 409)):
         assert authenticated_client.put(f"/products/{product['id']}", json=changes).status_code == status
     assert authenticated_client.get(f"/products/{product['id']}").json()["stock"] == 10
     assert authenticated_client.get("/inventory/movements?type=adjustment").json()["total"] == 0
 
 
-def test_movement_failure_rolls_back_stock_change(authenticated_client):
-    product = create_product(authenticated_client)
+def test_movement_failure_rolls_back_stock_change(authenticated_client, product_factory):
+    product = product_factory(stock=10)
 
     def fail_movement(*args):
         raise SQLAlchemyError("Fallo de escritura simulado")

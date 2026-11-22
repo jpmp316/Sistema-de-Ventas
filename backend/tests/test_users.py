@@ -14,15 +14,12 @@ def test_crear_usuario(authenticated_client, user_data):
     assert "id" in data
     assert "hashed_password" not in data
 
-    authenticated_client.delete(f"/users/{data['id']}")
-
 
 def test_login_usuario(client, user_data):
     create_response = client.post("/auth/bootstrap-admin", json=user_data)
 
     assert create_response.status_code == 201
 
-    user_id = create_response.json()["id"]
 
     login_response = client.post(
         "/auth/login",
@@ -40,15 +37,12 @@ def test_login_usuario(client, user_data):
     assert token_data["expires_in"] == ACCESS_TOKEN_EXPIRE_MINUTES * 60
     assert token_data["access_token"]
 
-    client.delete(f"/users/{user_id}")
-
 
 def test_login_con_password_incorrecta(client, user_data):
     create_response = client.post("/auth/bootstrap-admin", json=user_data)
 
     assert create_response.status_code == 201
 
-    user_id = create_response.json()["id"]
 
     login_response = client.post(
         "/auth/login",
@@ -60,8 +54,6 @@ def test_login_con_password_incorrecta(client, user_data):
 
     assert login_response.status_code == 401
     assert login_response.json()["detail"] == "Credenciales inválidas"
-
-    client.delete(f"/users/{user_id}")
 
 
 def test_listar_usuarios_requiere_autenticacion(client):
