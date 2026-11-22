@@ -119,6 +119,24 @@ jobs:
       # Run from repository root; Vercel applies its configured frontend Root Directory.
       - name: Pull production project settings
         run: vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+      - name: Validate public production API URL
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync } from 'node:fs';
+          const config = readFileSync('.vercel/.env.production.local', 'utf8');
+          const match = config.match(/^VITE_API_BASE_URL=(.*)$/m);
+          let value = match?.[1]?.trim() ?? '';
+          if (value.startsWith('"')) value = JSON.parse(value);
+          else if (value.startsWith("'")) value = value.slice(1, -1);
+          try {
+            const url = new URL(value);
+            if (url.protocol !== 'https:' || url.hostname.endsWith('.test')) throw new Error();
+          } catch {
+            console.error('::error::VITE_API_BASE_URL must be a readable HTTPS production URL. In Vercel, save it as Config (Sensitive disabled), not Secret, then rerun this job.');
+            process.exit(1);
+          }
+          console.log('Production API URL validated.');
+          NODE
       - name: Build production frontend
         run: vercel build --prod --token="$VERCEL_TOKEN"
       - name: Deploy and wait for production frontend
