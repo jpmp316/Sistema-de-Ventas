@@ -52,6 +52,10 @@ Los campos orgId y projectId aparecen en .vercel/project.json.
 
 En el proyecto verifica Root Directory = frontend, framework Vite, y la variable
 VITE_API_BASE_URL de Production con la URL HTTPS real de FastAPI.
+Guarda VITE_API_BASE_URL como tipo Config (Sensitive desactivado). Vercel no
+permite recuperar valores Secret mediante pull y devuelve un marcador como
+[SENSITIVE]. Vite incluiría ese marcador en el JavaScript público y el login
+fallaría con 404. El workflow valida esta variable antes de construir.
 El job descarga esa configuración antes de construir. La URL api.nexo.test del
 job de pruebas es exclusiva de las pruebas.
 
